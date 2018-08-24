@@ -6,7 +6,7 @@
 
   - utilizes [OWASP top 10 list of the most common attack types](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)
 
-  - utilizes multiple penetration methods with various tools, including [Kali Linux](kali.org) and [Metasploit Framework](metasploit.com)
+  - utilizes multiple penetration methods with various tools, including [Kali Linux](https://www.kali.org) and [Metasploit Framework](https://www.metasploit.com)
 
 - The repository is mainly set up as a requirement by a school cource in Haaga-Helia University of Applied Sciences, Helsinki, Finland.
 
