@@ -1,0 +1,27 @@
+# Maintainer: Pekka Helenius < fincer89 at hotmail DOT com >
+
+pkgname=zaproxy-service
+pkgver=1
+pkgrel=1
+pkgdesc='Start OWASP ZAP Proxy as a user service'
+arch=('any')
+license=('GPL3')
+depends=('zaproxy' 'systemd')
+source=("zaproxy.service")
+sha256sums=('d219630b530cbad77714c4f5a8e3160f4b3f22f9c8d0f7fc036f6f7bc81d9b51')
+
+package() {
+  cd "$srcdir"
+  install -Dm644 zaproxy.service "$pkgdir/usr/lib/systemd/system/zaproxy@.service"
+
+  msg2 '
+Start ZAP Proxy automatically during boot by issuing:
+sudo systemctl enable zaproxy@myuser.service
+
+Start ZAP Proxy manually:
+sudo systemctl start zaproxy@myuser.service
+
+where 'myuser' is your username (non-root)
+  '
+
+}
