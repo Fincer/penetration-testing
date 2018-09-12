@@ -3,7 +3,7 @@
 pkgname=zaproxy-service
 pkgver=1
 pkgrel=1
-pkgdesc='Start OWASP ZAP Proxy as a user service'
+pkgdesc='Start OWASP Zed Attack Proxy as a user service'
 arch=('any')
 license=('GPL3')
 depends=('zaproxy' 'systemd')
@@ -15,10 +15,10 @@ package() {
   install -Dm644 zaproxy.service "$pkgdir/usr/lib/systemd/system/zaproxy@.service"
 
   msg2 '
-Start ZAP Proxy automatically during boot by issuing:
+Start OWASP ZAP automatically during boot by issuing:
 sudo systemctl enable zaproxy@myuser.service
 
-Start ZAP Proxy manually:
+Start OWASP ZAP manually:
 sudo systemctl start zaproxy@myuser.service
 
 where 'myuser' is your username (non-root)
