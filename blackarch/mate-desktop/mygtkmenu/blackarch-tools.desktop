@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=BlackArch Tools
+
+GenericName=BlackArch Tools
+Comment=Use BlackArch penetration tools
+
+TryExec=mygtkmenu
+Exec=bash -c 'mygtkmenu ~/blackarch.items'
+Icon=/home/black/blackarch-launcher.jpg
+Type=Application
+Categories=Utility;
+StartupNotify=true
