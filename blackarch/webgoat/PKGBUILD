@@ -7,15 +7,12 @@
 pkgname=webgoat
 pkgver=8.0.0.M21
 pkgrel=1
-pkgdesc='Deliberately insecure J2EE web application designed to teach 
-web application security concepts'
+pkgdesc='Deliberately insecure J2EE web application designed to teach web application security concepts'
 arch=('i686' 'x86_64')
 url='https://github.com/WebGoat/WebGoat'
 license=('GPL2')
-depends=('java-runtime')
-optdepends=('webscarab: proxy for analyzing applications that 
-communicate using the HTTP and HTTPS protocols, used to help solve most 
-WebGoat lessons'
+depends=('java-runtime' 'systemd')
+optdepends=('webscarab: proxy for analyzing applications that communicate using the HTTP and HTTPS protocols, used to help solve most WebGoat lessons'
             'paros: MitM HTTP/HTTPS proxy, spider, XSS and injection 
 scanner + more, used to help solve WebGoat lessons')
 source=("https://github.com/WebGoat/WebGoat/releases/download/v${pkgver}/webgoat-server-${pkgver}.jar"
