@@ -1,0 +1,14 @@
+[Unit]
+Description=OWASP ZAP Proxy
+After=network.target
+
+[Service]
+Type=simple
+User=%i
+Environment="DISPLAY=:0"
+Environment="XAUTHORITY=/home/%i/.Xauthority"
+ExecStart=/bin/zaproxy
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target
