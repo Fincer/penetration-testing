@@ -1,0 +1,12 @@
+[Unit]
+Description=OWASP WebGoat Server
+After=network.target
+
+[Service]
+Type=simple
+User=%i
+ExecStart=/usr/bin/webgoat --server.port=1234 --server.address=localhost 
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target
