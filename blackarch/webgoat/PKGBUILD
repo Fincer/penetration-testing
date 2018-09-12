@@ -1,0 +1,47 @@
+# Maintainer: tuxayo < victor (replace by @) tuxayo DOT net >
+# Contributor: Lex Black <autumn-wind at web dot de>
+# Contributor: fnord0 < fnord0 AT riseup DOT net >
+# Contributor: Andrejs Mivreņiks <gim at fastmail dot fm>
+# Contributor: tuxayo < victor (replace by @) tuxayo DOT net >
+# Contributor: Pekka Helenius < fincer89 at hotmail DOT com >
+pkgname=webgoat
+pkgver=8.0.0.M21
+pkgrel=1
+pkgdesc='Deliberately insecure J2EE web application designed to teach 
+web application security concepts'
+arch=('i686' 'x86_64')
+url='https://github.com/WebGoat/WebGoat'
+license=('GPL2')
+depends=('java-runtime')
+optdepends=('webscarab: proxy for analyzing applications that 
+communicate using the HTTP and HTTPS protocols, used to help solve most 
+WebGoat lessons'
+            'paros: MitM HTTP/HTTPS proxy, spider, XSS and injection 
+scanner + more, used to help solve WebGoat lessons')
+source=("https://github.com/WebGoat/WebGoat/releases/download/v${pkgver}/webgoat-server-${pkgver}.jar"
+        "webgoat.sh"
+	"webgoat.service")
+sha256sums=('df4d52eb39ce77ecefccec5b791303eef18967010d989ce60db88c1c65cb8581'
+            '96c397608902e58d5771b6aa3b79c5b562ea221bd89ed45ef04b1f413ea11111'
+            'cee01e0a93f8cea8a991eba8ac147a8719f89a2b915530755350b0522c74a0a7')
+
+package() {
+  cd "$srcdir"
+  install -Dm755 webgoat.sh "$pkgdir/usr/bin/webgoat"
+  install -Dm644 "webgoat-server-${pkgver}.jar" "$pkgdir/opt/$pkgname/webgoat.jar"
+  install -Dm644 webgoat.service "$pkgdir/usr/lib/systemd/system/webgoat@.service"
+
+  msg2 '
+Start WebGoat automatically during boot by issuing:
+sudo systemctl enable webgoat@myuser.service
+
+Start WebGoat manually:
+sudo systemctl start webgoat@myuser.service
+
+where 'myuser' is your username (non-root)
+
+WebGoat login page URL:
+http://localhost:1234/WebGoat/login
+  '
+
+}
