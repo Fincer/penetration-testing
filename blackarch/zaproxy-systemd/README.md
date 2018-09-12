@@ -1,6 +1,6 @@
-## ZAP Proxy as a Systemd user service for BlackArch Linux
+## OWASP Zed Attack Proxy (ZAP) as a Systemd user service for BlackArch Linux
 
-Automate ZAP Proxy start-up with this systemd unit 
+Automate OWASP ZAP start-up with this systemd unit 
 
 -----------------------
 
@@ -8,11 +8,11 @@ Automate ZAP Proxy start-up with this systemd unit
 
 - PKGBUILD
 
-  - An Arch Linux PKGBUILD script file for ZAP Proxy Systemd service
+  - An Arch Linux PKGBUILD script file for OWASP ZAP Systemd service
 
 - zaproxy.service
 
-  - Systemd unit service file to start ZAP Proxy as a *user* service
+  - Systemd unit service file to start OWASP ZAP as a *user* service
 
 -----------------------
 
@@ -22,11 +22,11 @@ Automate ZAP Proxy start-up with this systemd unit
   
 2. Run `updpkgsums && makepkg` on Arch Linux
 
-3. (a) Start ZAP Proxy automatically during boot by issuing:
+3. (a) Start OWASP ZAP automatically during boot by issuing:
 
 `sudo systemctl enable zaproxy@myuser.service`
 
-3. (b) Start ZAP Proxy manually:
+3. (b) Start OWASP ZAP manually:
 
 `sudo systemctl start zaproxy@myuser.service`
 
