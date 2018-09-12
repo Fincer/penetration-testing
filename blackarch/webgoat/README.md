@@ -1,6 +1,6 @@
 ## OWASP WebGoat for BlackArch Linux
 
-This folder has files for installing OWASP WebGoat on BlackArch Linux. 
+This folder has files for OWASP WebGoat installation on BlackArch Linux. 
 
 -----------------------
 
