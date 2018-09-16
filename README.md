@@ -12,6 +12,16 @@
 
 - The repository contains various exercises, currently presented in Finnish but will be translated into English later.
 
+## Table of Contents
+
+- [Exercise 1 (Harjoitus 1)](exercises/h1.md)
+
+- [Exercise 2 (Harjoitus 2)](exercises/h2.md)
+
+- [Exercise 3 (Harjoitus 3)](exercises/h3.md)
+
+- [Exercise 4 (Harjoitus 4)](exercises/h4.md)
+
 ## Disclaimer
 
 Author of this repository is not responsible for any possible illegal or malicious usage of any files or instructions provided by this repository. The repository is provided as an act of good will and does not intend to encourage users to participate in any illegal activities. All exercises presented in this repository have been carried out in a pre-configured test environment, minimizing any possible attack vectors or unintended harm to outside parties.
