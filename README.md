@@ -26,9 +26,9 @@
 
 ### [BlackArch Linux - Personal configurations](blackarch/)
 
-  - [OWASP WebGoat](blackarch/webgoat) - Install OWASP WebGoat as a dystemd user service
+  - [OWASP WebGoat](blackarch/webgoat) - Install [OWASP WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project) as a systemd user service
   
-  - [OWASP Zed Attack Proxy](blackarch/zaproxy-systemd) - Install OWASP ZAP as a systemd user service
+  - [OWASP Zed Attack Proxy](blackarch/zaproxy-systemd) - Install [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) as a systemd user service
   
   - [MATE Desktop/myGtkMenu](blackarch/mate-desktop) - Convert BlackArch Openbox penetration tool menu entries into [myGtkMenu](https://sites.google.com/site/jvinla/mygtkmenu) compliant format, use these entries with myGtkMenu
 
