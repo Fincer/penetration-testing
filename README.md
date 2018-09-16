@@ -22,6 +22,16 @@
 
 - [Exercise 4 (Harjoitus 4)](exercises/h4.md)
 
+## Other contents
+
+### [BlackArch Linux - Personal configurations](blackarch/)
+
+  - [OWASP WebGoat](blackarch/webgoat) - Install OWASP WebGoat as a dystemd user service
+  
+  - [OWASP Zed Attack Proxy](blackarch/zaproxy-systemd) - Install OWASP ZAP as a systemd user service
+  
+  - [MATE Desktop/myGtkMenu](blackarch/mate-desktop) - Convert BlackArch Openbox penetration tool menu entries into [myGtkMenu](https://sites.google.com/site/jvinla/mygtkmenu) compliant format, use these entries with myGtkMenu
+
 ## Disclaimer
 
 Author of this repository is not responsible for any possible illegal or malicious usage of any files or instructions provided by this repository. The repository is provided as an act of good will and does not intend to encourage users to participate in any illegal activities. All exercises presented in this repository have been carried out in a pre-configured test environment, minimizing any possible attack vectors or unintended harm to outside parties.
