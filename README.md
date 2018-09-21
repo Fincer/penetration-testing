@@ -67,7 +67,7 @@ Iptables firewall ruleset featuring the following:
 **NOTE:** This patchset is useful in some cases but it can bury underneath problems in server
 configuration. Thus, use discretion before implementing the patches in your Apache server.
 
-**NOTE:** Apache *will complaint* about missing error codes after you have applied this patchset and if you have custom error redirections in your `.htaccess` or in other settings. This is why you need to adjust your custom `ErrorDocument` and equivalent settings in your VirtualHost/Page configuration file (`/etc/{apache2,httpd}/sites-available`).
+**NOTE:** Apache *will complaint* about missing error codes after you have applied this patchset and if you have custom error redirections in your `.htaccess` or in other settings. This is why you need to adjust your custom `ErrorDocument` and equivalent settings (RewriteRules, for instance) in your VirtualHost/Page configuration file (`/etc/{apache2,httpd}/sites-available/*.conf`).
 
 ## Disclaimer
 
