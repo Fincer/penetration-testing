@@ -1,6 +1,6 @@
 # Basics of offensive penetration testing
 
-**NOTE:** Some exercises in this repository include answers to [HackTheBox penetration challenges](hackthebox.eu). To respect [accepted rules & terms of the HackTheBox website](https://www.hackthebox.eu/tos), spoiler information of hacking servers in their test network environment is not published in this repository. This policy will change *only if* the following conditions are met: 1) the particular computers are retired or offline. In any other circumstances, information of hacking HackTheBox-related computer servers is not published in this repository. Thank you.
+**NOTE:** Some exercises in this repository include answers to [HackTheBox penetration challenges](https://www.hackthebox.eu/). To respect [accepted rules & terms of the HackTheBox website](https://www.hackthebox.eu/tos), spoiler information of hacking servers in their test network environment is not published in this repository. This policy will change *only if* the following conditions are met: 1) the particular computers are retired or offline. In any other circumstances, information of hacking HackTheBox-related computer servers is not published in this repository. Thank you.
 
 The information in this repository will be re-evaluated later.
 
