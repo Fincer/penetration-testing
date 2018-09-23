@@ -56,7 +56,7 @@ Iptables firewall ruleset featuring the following:
   
 > 3) Server HTTP response codes in range 100-308 are returned normally, including 200 OK message.
 
-- [[Patch] Apache - Remove default HTML error message for all error pages](https://github.com/Fincer/linux-server-setup/blob/master/patches/patch_apache_disable_html_errormsg.patch)
+- [[Patch] Apache - Remove default HTML error message from all error pages](https://github.com/Fincer/linux-server-setup/blob/master/patches/patch_apache_disable_html_errormsg.patch)
 
   - Remove default error pages returned by an erroneous HTTP client request.
   
