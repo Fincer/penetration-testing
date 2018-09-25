@@ -95,7 +95,7 @@ configuration. Thus, use discretion before implementing the patches in your Apac
 
 Check packages on your system and find out number of potential CVE issues and evaluate generic risk of an outdated package on your Arch Linux system. **Does not give detailed information, just a basic summary**. Do further analysis for any package if needed on [Arch security database](https://security.archlinux.org/) and using [regular CVE databases](https://www.searx.me/?q=cve%20database)
 
-- Requires Arch Linux (core dependencies are: [pacman](https://www.archlinux.org/packages/core/x86_64/pacman/) and [arch-audit](https://www.archlinux.org/packages/community/x86_64/arch-audit/) and [bash](https://www.archlinux.org/packages/core/x86_64/bash/) version 4 or higher)
+- Requires Arch Linux (core dependencies are: [pacman](https://www.archlinux.org/packages/core/x86_64/pacman/) and [arch-audit](https://www.archlinux.org/packages/community/x86_64/arch-audit/), [bc](https://www.archlinux.org/packages/extra/x86_64/bc/) and [bash](https://www.archlinux.org/packages/core/x86_64/bash/) version 4 or higher)
 
 - Simple **bash** shell script
 
