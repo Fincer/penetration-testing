@@ -37,7 +37,9 @@ The information in this repository will be re-evaluated later.
   - [OWASP Zed Attack Proxy](blackarch/zaproxy-systemd) - Install [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) as a systemd user service
   
   - [MATE Desktop/myGtkMenu](blackarch/mate-desktop) - Convert BlackArch Openbox penetration tool menu entries into [myGtkMenu](https://sites.google.com/site/jvinla/mygtkmenu) compliant format, use these entries with myGtkMenu
-  
+
+------------------
+
 ### Iptables ruleset for a simple server
 
 Iptables firewall ruleset featuring the following:
@@ -49,6 +51,8 @@ Iptables firewall ruleset featuring the following:
 > 3) Drop all incoming connections, apply only SSH, HTTP and HTTPS
 
 - [[File] iptables.rules / Fincer - Linux server setup](https://github.com/Fincer/linux-server-setup/blob/master/other/iptables.rules)
+
+------------------
 
 ### Fake Apache server HTTP response codes
 
@@ -74,6 +78,26 @@ Iptables firewall ruleset featuring the following:
 configuration. Thus, use discretion before implementing the patches in your Apache server.
 
 **NOTE:** Apache *will complain* about missing error codes after you have applied this patchset and if you have custom error redirections in your `.htaccess` or in other settings. This is why you need to adjust your custom `ErrorDocument` directives and equivalent settings (RewriteRules, for instance) in your VirtualHost/Page configuration file (`/etc/{apache2,httpd}/sites-available/*.conf`).
+
+------------------
+
+### Find old package versions at high risk on Arch Linux using updated CVE data
+
+[[Bash script] archrisks.sh - Fincer/archtools](https://github.com/Fincer/archtools/blob/master/tools/archrisks.sh)
+
+Check packages on your system and find out number of potential CVE issues and evaluate generic risk of an outdated package on your Arch Linux system. **Does not give detailed information, just a basic summary**. Do further analysis for any package if needed on [Arch security database](https://security.archlinux.org/) and using [regular CVE databases](https://www.searx.me/?q=cve%20database)
+
+- Requires Arch Linux (core dependencies are: [pacman](https://www.archlinux.org/packages/core/x86_64/pacman/) and [arch-audit](https://www.archlinux.org/packages/community/x86_64/arch-audit/) and [bash](https://www.archlinux.org/packages/core/x86_64/bash/) version 4 or higher)
+
+- Simple **bash** shell script
+
+- CVE security information from [Arch security database](https://security.archlinux.org/)
+
+- **NOTE** `sudo` is required for package database updates retrieved by `pacman`. If in doubt, you can always check the script yourself ([link here](https://github.com/Fincer/archtools/blob/master/tools/archrisks.sh)).
+
+![](https://raw.githubusercontent.com/Fincer/archtools/master/images/archrisks.png)
+
+------------------
 
 ## Disclaimer
 
