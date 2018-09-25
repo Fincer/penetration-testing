@@ -28,6 +28,14 @@ The information in this repository will be re-evaluated later.
 
 - [Exercise 4 (Harjoitus 4)](exercises/h4.md)
 
+- [Exercise 5 (Harjoitus 5)](exercises/h5.md)
+
+- [Iptables ruleset for a simple server](https://github.com/Fincer/penetration-testing#iptables-ruleset-for-a-simple-server)
+
+- [Fake Apache server HTTP response codes](https://github.com/Fincer/penetration-testing#fake-apache-server-http-response-codes)
+
+- [Find old package versions at high risk on Arch Linux using updated CVE data](https://github.com/Fincer/penetration-testing#find-old-package-versions-at-high-risk-on-arch-linux-using-updated-cve-data)
+
 ## Other contents
 
 ### [BlackArch Linux - Personal configurations](blackarch/)
