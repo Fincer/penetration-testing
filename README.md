@@ -30,6 +30,8 @@ The information in this repository will be re-evaluated later.
 
 - [Exercise 5 (Harjoitus 5)](exercises/h5.md)
 
+- [Exercise 6 (Harjoitus 6)](exercises/h6.md)
+
 - [Iptables ruleset for a simple server](https://github.com/Fincer/penetration-testing#iptables-ruleset-for-a-simple-server)
 
 - [Fake Apache server HTTP response codes](https://github.com/Fincer/penetration-testing#fake-apache-server-http-response-codes)
