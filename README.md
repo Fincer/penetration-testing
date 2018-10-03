@@ -32,6 +32,8 @@ The information in this repository will be re-evaluated later.
 
 - [Exercise 6 (Harjoitus 6)](exercises/h6.md)
 
+- [BlackArch Linux - Personal configurations](https://github.com/Fincer/penetration-testing#blackarch-linux---personal-configurations)
+
 - [Iptables ruleset for a simple server](https://github.com/Fincer/penetration-testing#iptables-ruleset-for-a-simple-server)
 
 - [Fake Apache server HTTP response codes](https://github.com/Fincer/penetration-testing#fake-apache-server-http-response-codes)
