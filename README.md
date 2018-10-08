@@ -32,6 +32,8 @@ The information in this repository will be re-evaluated later.
 
 - [Exercise 6 (Harjoitus 6)](exercises/h6.md)
 
+- [Exercise 7 (Harjoitus 7)](exercises/h7.md)
+
 - [BlackArch Linux - Personal configurations](https://github.com/Fincer/penetration-testing#blackarch-linux---personal-configurations)
 
 - [Iptables ruleset for a simple server](https://github.com/Fincer/penetration-testing#iptables-ruleset-for-a-simple-server)
