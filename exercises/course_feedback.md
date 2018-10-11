@@ -192,7 +192,7 @@ Erityisen uhkaava on tilanne, jos hyökkääjä havaitsee järjestelmässä haav
 
 On välillä kiva naksutella HackTheBoxin koneiden parissa, VulnHub:n tarjontaan pitää myös tutustua paremmin. Ja ei tarvitse arvata, että vastaavia alustoja löytyy varmasti eksponentiaalisesti enemmänkin. Hyöty ja huvi samassa.
 
-Koen kyberturvallisuuden oppimisessa tärkeänä, että kurssin aihepiiri läpäisee IT:tä yleisellä tasolla, koska osittaisena alanvaihtajana penetraatiotestaus voi tarjota itselleni uusia mielenkiintoisia ja erikoislaatuisia mahdollisuuksia myös aiempaan ammattialaani liittyen.
+Koen kyberturvallisuuden oppimisessa tärkeänä, että kurssin aihepiiri läpäisee IT:tä yleisellä tasolla, koska osittaisena alanvaihtajana penetraatiotestaus voi tarjota itselleni uusia mielenkiintoisia ja erikoislaatuisia mahdollisuuksia kahdella eri alalla.
 
 Kyberturvallisuus linkittyy myös fyysiseen turvallisuuteen. Olen aiemmin ollut tekemisissä fyysiseen turvallisuuteen liittyvien turvaratkaisujen parissa.
 
