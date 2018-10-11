@@ -197,51 +197,73 @@ Kyberturvallisuus linkittyy myös fyysiseen turvallisuuteen. Olen aiemmin ollut 
 
 ## Miten voisin parantaa kurssia? - Kurssin jatkokehitys
 
-### Hyvä lähtölaukaus penetraatiotestauksen maailmaan
+### Perustieto: Hyvä lähtölaukaus penetraatiotestauksen maailmaan
 
 Kurssi oli mielestäni kokonaisvaltaisesti hyvin järjestetty. Kurssilla opittiin keskeisiä lähteitä ja käytäntöjä, joista kukin voi lähteä omaa osaamistaan kyberturvallisuudessa syventämään. 
 
 Sopivatasoisen lähtölaukauksen antaminen eri hyökkäys- ja suojaustekniikoista opiskelijoille on hyvin keskeistä motivaation ja itseoppimisen kannalta. Kurssi täytti hyvin nämä tarpeet ja antoi hyviä eväitä tulevalle itsekehittymiselle sekä verkostoitumiselle. Pidän kurssin lähestymistapaa penetraatiotestaukseen oikeanlaisena ihmisille, jotka eivät ole aiemmin tehneet vastaavaa käytännössä.
 
-### OWASP
+### Perustieto: OWASP
 
-Pidän OWASP Top10 ja OWASP WebGoat kurssin alussa olivat mielestäni hyviä sekä keskeisiä oppimismateriaaleja, ja pitäisin ne myös jatkototeutuksilla mukana.
+OWASP Top10 ja OWASP WebGoat olivat kurssin alussa hyviä sekä keskeisiä oppimismateriaaleja, ja pitäisin ne myös jatkototeutuksilla mukana.
 
-### Stuxnet ja tieteelliset artikkelit
+### Perustieto: Stuxnet ja tieteelliset artikkelit
 
-Itseopiskelu Stuxnet:sta ja vastaavista antoi hyvää tietoa, miten eri tyyppisesti ja eri tekniikoita hyödyntäen hyökkäyksiä on toteutettu. Pitäisin mukana myös tulevilla toteutuksilla. Tekniset analyysit/dokumentaatiot ovat avainlähde lisäämään ymmärrystä siitä, miksi ja millä keskeisillä tekniikoilla jotkin hyökkäykset ovat ylipäätään onnistuneet.
+Tieteellisten artikkelien tutkimisen Stuxnet:sta ja vastaavista antoi hyvää tietoa, miten eri tyyppisesti ja eri tekniikoita hyödyntäen hyökkäyksiä on toteutettu. Pitäisin mukana myös tulevilla toteutuksilla.
 
-Joillekin teknisen dokumentaation lukeminen voi toki tuntua työläältä, itse olen tottunut niihin. 
+Tekniset analyysit/dokumentaatiot ovat avainlähde lisäämään ymmärrystä siitä, miksi ja millä keskeisillä tekniikoilla jotkin hyökkäykset ovat ylipäätään onnistuneet, joskin joillekin teknisen dokumentaation lukeminen voi tuntua työläältä.
 
-### Korkattavat koneet
-
-Kurssin tehtävissä oli sopivaa vaihtelua. Joskus olisin toivonut enemmän aikaa HTB-kohdekoneiden korkkaamiseen, koska hyökkäystekniikoita ja lähestymistapoja on niin monia, ja aikataulu uhkasi kaatua päälle.
+### Korkattavat koneet: Walkthrough vs. DIY
 
 Vaikka Walkthrough-videot voidaan mieltää "huijaamiseksi", antavat ne myös pohjaa oikeanlaiselle ajattelutavalle ja näyttävät osaltaan keskeisiä hyökkäystyökaluja- ja tekniikoita. Oikeanlaisen ajattelutavan harjaannuttaminen on keskeistä kurssilla, jossa "kurkistetaan" penetraatiotestauksen maailmaan.
 
-Kurssin toisella toteutuksella saattaisin harkinnan mukaan ottaa ensimmäisiksi korkattaviksi koneiksi 1-2 erityyppistä HTB:n "Retired" -konetta tai Vulnhub:n konetta, ja tämän jälkeen jonkin ei-spoilatun HTB:n "Active"-koneen. Maalikone Jerry oli tosin niin helppo korkattava, ettei sen taustoittamiseksi välttämättä tarvitse "hirveää jumppaa", mutta muut HTB:n koneet voivat vaatia hieman enemmän perehtymistä aihepiiriin.
+Kurssin toisella toteutuksella saattaisin harkinnan mukaan ottaa ensimmäisiksi korkattaviksi koneiksi 1-2 erityyppistä HTB:n "Retired" -konetta tai Vulnhub:n konetta, ja tämän jälkeen jonkin ei-spoilatun HTB:n "Active"-koneen. Tämä täytyisi yrittää mitoittaa jotenkin työmäärän/aikataulun mukaan mieleiseksi, koska ainakaan kaikki Active-koneet eivät välttämättä heti "aukea", ja tehtävien deadline puskee päälle jättäen homman lopulta ratkaisematta.
 
-### Tunneilla opittavat tekniikat
+HTB-maalikone Jerry oli sen verran helppo korkattava, ettei sen taustoittamiseksi välttämättä tarvitse "hirveää jumppaa", mutta muut HTB:n koneet voivat vaatia hieman enemmän perehtymistä aihepiiriin.
 
-Edellä mainittuun koneiden korkkauksen yhteyteen voi liittää perustekniikoiden opiskeluosuuden (nmap, hydra, dirbuster, zaproxy, sqlmap, OWASP top10, MSF, jne.), jotta opiskelijat harjaantuisivat riittävästi koneiden korkkauksiin ja parantaisivat omaa yleistä kyberturvallisuusosaamistaan ja saisivat kattavan käsityksen keskeisistä tekniikoista. Olennaista on myös jaksottaa nämä jotenkin niin, ettei liika infoähky tapa opiskelumotivaatiota ja antaisi riittävän kuvan työkalujen sekä tekniikoiden toiminnasta.
+### Tekniikat
 
-### Skannausten agressiivisuudesta
+####**Lyhyesti:**
+
+> Perustekniikat haltuun
+
+Kurssilla on hyvä pitää perustekniikoiden opiskeluosuus (nmap, hydra, dirbuster, zaproxy, sqlmap, jne.), ja mielestäni oli hyvä, että jokainen sai tutustua itse valitsemiinsa tekniikoihin jossain määrin vapaavalintaisesti, lukuun ottamatta ihan core-osaamista (OWASP, msf). Näin työkalujen ja tekniikoiden skaalaa saatiin kasvatettua opiskelijoiden keskuudessa, ja tiedonvaihto oli mahdollisimman tehokasta.
+
+Perustyökalujen käytön harjaannuttamisella opiskelijat harjaantuvat riittävästi koneiden korkkauksiin ja saavat kohtalaisen käsityksen keskeisistä tekniikoista. Olennaista on jaksottaa työkalujen oppiminen jotenkin niin, ettei liika infoähky tapa opiskelumotivaatiota ja antaisi riittävän kuvan työkalujen sekä tekniikoiden toiminnasta.
+
+Tiedän, että kurssilla opeteltavat työkalut ovat vain pintaraapaisu siitä, mitä offensiiviset Linux-penetraatiojakelut pitävät sisällään. Lisää työkaluja ja tekniikoiden kuvauksia löytyy myös mm. erinäisistä GitHub-repoista.
+
+### Tekniikat: Skannausten agressiivisuudesta
+
+####**Lyhyesti:**
+
+> Monet opiskelijat skannasivat agressiivisesti. Ei näin.
+
+Skannaustekniikoissa  (porttiskannaus, brute-force) aika moni tuntui käyttävän skannaustyökaluja hyvin agressiivisilla oletusasetuksilla. Itsekin sorruin tähän, kunnes tutustuin dokumentaatioon paremmin (esim. nmap ja hydra). Skannausten agressiivisuusasetuksen vaikutusta olisi ehkä hyvä myös käydä läpi, koska monet työkalut asettavat skannausten agressiivisuuden turhan korkealle, ja voivat kaataa kevyen testipalvelimen.
+
+### Tekniikat: Porttiskannauksen perusteet?
+
+####**Lyhyesti:**
+
+> Miten nmap oikeastaan toimii?
 
 En tiedä, olisiko hyvä käydä tai jättää itseopiskeltavaksi perusteet porttiskannauksesta (SYN Stealth, Xmas, Null scans jne.) sekä näyttää vaikka Wiresharkilla, kuinka konkreettisesti nämä näkyvät verkossa, sekä näyttää palomuurin vaikutus. Ehkä, ehkä ei? IPTables näyttelee jossain määrin myös keskeistä roolia eräiden uhkien torjunnassa, joskaan ei ole mikään vedenpitävä ratkaisu.
 
-Skannaustekniikoista yleisesti puhuttuna (myös brute-force) aika moni tuntui käyttävän skannaustyökaluja hyvin agressiivisilla oletusasetuksilla. Itsekin sorruin tähän, kunnes tutustuin dokumentaatioon paremmin (esim. nmap ja hydra). Skannausten agressiivisuusasetuksen vaikutusta olisi ehkä hyvä myös käydä läpi, koska monet työkalut asettavat skannausten agressiivisuuden turhan korkealle, ja voivat kaataa kevyen testipalvelimen.
-
 ### Kotitehtävät
 
-Kotitehtävät olivat mielenkiintoisia, joskin itse yllätyin hieman siitä, että ne vaativat aika intensiivistä paneutumista lyhyellä aikavälillä uusiin tekniikoihin. Tämä voi muodostua joillekin hankalaksi ja yllättäväksi haasteeksi muuhun elämään sovitettuna.
+Kotitehtävät olivat mielenkiintoisia, joskin itse yllätyin hieman siitä, että ne vaativat aika intensiivistä paneutumista lyhyellä aikavälillä uusiin tekniikoihin. Tämä voi muodostua joillekin hankalaksi ja yllättäväksi haasteeksi muuhun elämään sovitettuna. Joskin täytyy mainita, että on erittäin tärkeää olla läsnä tunneilla. Valtaosa kotiläksyiksi tulleista tekniikoista opetetaan riittävällä tasolla nimittäin edellisellä opetuskerralla.
 
-### Kotitehtävien merkitys ja tiedonsaanti
+### Kotitehtävät: tehtävien merkitys ja tiedonsaanti
 
-Kotitehtävät auttavat opiskelijaa syventymään aiheeseen. Penetraatiotestauksessa tämä on mielenkiintoista siksi, että dokumentaatiota tai "helposti saatavilla olevaa" informaatiota ei kaikesta välttämättä ole saatavilla, mikä lisää opiskelijan omaa vastuuta selvittää käytettyjen tekniikoiden toimivuus käyttöympäristössä: joskus saatavana referenssinä on yksi YouTube-video, GitHub:n Readme-tiedosto ja joskus pelkkä lähdekoodi tai kommentti.
+####**Lyhyesti:**
+
+> Tietoa ei ole saatavilla, joten kokeile, tutki ja kaiva!
+
+Kotitehtävät auttavat opiskelijaa syventymään aiheeseen. Penetraatiotestauksessa tämä on mielenkiintoista siksi, että dokumentaatiota tai "helposti saatavilla olevaa" informaatiota ei kaikesta välttämättä ole saatavilla, mikä lisää opiskelijan omaa vastuuta selvittää käytettyjen tekniikoiden toimivuus käyttöympäristössä: joskus saatavana referenssinä on yksi YouTube-video, GitHub:n Readme-tiedosto ja joskus pelkkä lähdekoodi tai yksittäinen kommentti.
 
 ### Kotitehtävät: käytetty aika
 
-Hyökkäystekniikoiden selvitystyö ja analyysit veivät valtaosan ajasta, jotka itse käytin kotitehtävien tekoon. Monissa tehtävissä aikaa vei pääpiirteittäin seuraavanlainen työjärjestys
+Hyökkäystekniikoiden selvitystyö ja analyysit veivät valtaosan ajasta, jotka itse käytin kotitehtävien tekoon. Monissa, joskaan ei kaikissa tehtävissä aikaa vei seuraavankaltainen työjärjestys
 
 ```
 Kotitehtävän osa 1: toteuta asia X
@@ -265,7 +287,11 @@ Ratkaisu:
 
 Sama sykli toistui mahdollisesti monen kotitehtävän osan kanssa. Ei aina, mutta paikoitellen. Tämän vuoksi koin erittäin tärkeänä jaksottaa tehtävien tekoa pitkin viikkoa, ja korostaa jaksottamisen tärkeyttä. Pyrin parhaani mukaan deadlineen "vuorokausi ennen tunteja". Ymmärrän, että kaikilla kurssiopiskelijoilla tämä ei valitettavasti ollut mahdollista.
 
-### Huolellisesti tehty hyökkäys vs. uuden oppiminen
+### Kurssin opetuslinjaus: huolellisesti opeteltu tekniikka vs. uuden oppiminen
+
+####**Lyhyesti:**
+
+> Vaihtoehdot: 1) Paljon oppia vähässä ajassa, 2) vähän oppia paljossa ajassa vai 3) ratkaisuna kurssin pidentäminen kahden periodin mittaiseksi? Siinä pähkinä purtavaksi.
 
 Itselläni jäi osa tehtävistä sellaiseen vaiheeseen, että käytetyissä menetelmissä olisi jatkokehityksen ja hienosäädön paikka. Päädyin monesti ratkaisuihin, jotka olivat aikataulun puitteissa mahdollisia, mutta eivät olleet parhaita mahdollisia. Väljemmällä aikataululla olisin voinut tehdä hyökkäysten toteutuksen paremmin ja voinut yrittää esimerkiksi virustorjunnan ohittamiskeinoja koodin obfuskointimenetelmillä (mikä olisi edellyttänyt monien AV-ohjelmistojen kanssa testailua jne.).
 
@@ -279,39 +305,31 @@ Vaikka kotitehtävien tekoon varattu aika oli lyhyt, koen silti kurssin aikataul
 
 Koko kurssin ajatus lienee antaa alkusysäys penetraatiotestauksen maailmaan, ja siihen tarpeeseen kurssi vastasi hyvin. Saattaisin harkita kurssin myöhempiä toteutuksia kahden periodin mittaisena opettajan ja Haaga-Helian harkinnan mukaan.
 
-### Kotitehtävät: kurssille jatkoa?
+### Tehtävät ja tekniikat: yksi ohje ei päde
+
+####**Lyhyesti:**
+
+> Oman oppimisen, Linux-tietämyksen sekä soveltamisen tärkeyden korostus opiskelijoille niin työkaluissa, tekniikoissa kuin kotitehtävissäkin
+
+Niin kuin Linux-maailmassa yleisestikin, ei yhden ihmisen ohje välttämättä täysin päde toisen ihmisen ympäristöön. Varsinkin ihmisillä, joille käytetty tekniikka ei ole tuttu, ohjeiden orjallinen noudattaminen korostuu eikä opittua tietoa osata soveltaa.
+
+Orjallisella noudattamisella on riski törmätä seinään ja mystisiin virhetilanteisiin toisessa käyttöympäristössä. Varsinkin, kun kurssilla opetellaan tekniikoita, joista ei aina ole kattavaa informaatiota saatavilla, niin itseoppimisen ja sovellettavuuden merkitys korostuu. Kaikkea ei voi syöttää kädestä suuhun, vaan joskus opiskelijan on osattava soveltaa oppimaansa tietoa ilman step-by-step -ohjeistusta.
+
+Opiskelijoiden käyttämät ympäristöt poikkeavat toisistaan, mikä on yksi syy heidän toteuttamiensa hyökkäysten onnistumiseen tai epäonnistumiseen. Kurssin ensimmäisen toteutuksen aikana tehtyjen olennaisten havaintojen korostus voisi olla keskeistä kurssisisällön jatkokehittämisen kannalta. Esimerkkinä Windows 7 ilman Defenderiä (hyökkäys onnistuu) vs. Windows 10 Defenderillä (hyökkäys epäonnistuu). Jos joku jää näiden kanssa tappelemaan, tuhrautuu aikaa näiden selvittämiseen, ja itse kotitehtävän toteutus voi jäädä heikommalle tolalle.
+
+Kurssilla voisi olla lisävarmistus opiskelijan perustyökalujen käyttötasosta: oli kyseessä Oracle VirtualBox, VMWare, Vagrant (jokin näistä) tai vaikkapa ohjelmien asennus, poisto, pakettivarastojen lisäys ym. Kali Linux -ympäristössä (apt/dpkg + PPA jne.).
+
+Hieman yllättävästi koetilanteessa joillakin ihmisillä oli hukassa esim. SaltStack:n PPA:n lisäys Kali Linux:iin, vaikka ohjeet ovat suoraan netissä pienen etsimisen takana ja riittävällä Linux-ymmärrystasolla sovellettavissa.
+
+### Muuta: Kurssin opintopistemäärän kasvattaminen
+
+Edellä mainittujen ajankäyttöön liittyvien perusteluiden takia suosittelisin kurssin opintopistemäärän kasvattamista: Kurssi on omalta osaltani ollut ehdottomasti syksyn 2018 työläin (+ aikaavievin) 5 op:n kurssi itselläni, ja käytännössä syönyt kaiken ajan kahdelta vastaavan opintopistemäärän pakolliselta kurssilta, jotka täytyy nyt kiriä kiinni ennen täyttä tipahtamista. Tässä toki korostuu opiskelijan vastuu oman HOPS:n noudattamisesta, mutta työmäärään nähden 5 opintopistettä tuntuu henkilökohtaisesti liian vähältä. Jätän tämän opettajan ja Haaga-Helian harkinnan varaan, ja ymmärrän, että ennakkoon määrätyistä opintopistemääristä ei välttämättä kovin helpolla (jos lainkaan) jousteta.
+
+### Muuta: kurssille jatkoa?
 
 Kurssilla opittiin paljon penetraatiotestauksen keskeisiä menetelmiä, mutta havaitsin, että lisätiedolle olisi tarvetta. Ennen kaikkea omien troijalaisten/virusten tuottaminen sekä virustorjunnan ohittamisen tarve korostuivat. Jos kurssista koskaan järjestetään jatkototeutusta, harkitsisin em. osa-alueiden (koodaus + AB bypass) siirtämistä kyseisen jatkototeutuksen piiriin.
 
 Nämä jatkototeutukset edellyttävät jonkintasoista ohjelmointiosaamista (C/Python), ja liittyy siten laajempaan Haaga-Helian -kurssitoteutusten kontekstiin (~järjestetäänkö opiskelijoille kyseisten kielien opetusta riittävästi/lainkaan?).
-
-### Kotitehtävät: kurssin ensimmäisen toteutuksen hyödyntäminen jatkossa
-
-Käyttäisin kurssin toisella toteutuksella ehdottomasti jonkinlaisena ohjenuorana niitä keskeisiä oppeja, joita ensimmäisellä toteutuksella havaitsimme. Esimerkkinä Windows:n virustorjunnan kanssa tulleet haasteet, joihin monet tuntuivat sortuvan ja joiden ohittamiseen ei ymmärrettävistä syistä käytetty aikaa. Jos joku jää näiden kanssa tappelemaan, tuhrautuu aikaa näiden selvittämiseen, ja itse kotitehtävän toteutus voi jäädä heikommalle tolalle, mikä on ikävää.
-
-### Kotitehtävät: yksi ohje ei päde
-
-Niin kuin Linux-maailmassa yleisestikin, ei yhden ihmisen ohje välttämättä täysin päde toisen ihmisen ympäristöön.
-
-Opiskelijoiden käyttämät ympäristöt poikkeavat toisistaan (vrt. itselläni Windows 7 ilman Defenderiä vs. toisella Windows 10 Defenderillä), mikä on yksi syy heidän toteuttamiensa hyökkäysten onnistumiseen tai epäonnistumiseen. Epäonnistuminenkin toki opettaa, ja on siksi keskeistä tekniikoiden ja kurssisisällön jatkokehittämisen kannalta.
-
-Ongelma "sovella tätä ohjetta suoraan" -ohjeiden orjallisessa noudattamisessa on se, että monesti toteutus epäonnistuu toisessa käyttöympäristössä. 
-
-Ohjeiden soveltamista tulisi korostaa, mutta tämä edellyttää myös riittävää ymmärrystä opiskelijan taholta: kaikkea ei voi syöttää kädestä suuhun, vaan joskus opiskelijan on osattava soveltaa oppimaansa tietoa ilman step-by-step -ohjeistusta.
-
-Itse olisin voinut esim. GZDoom-ohjeissani korostaa omaa Windows 7 -käyttöympäristöäni. Hieman yllätyin, etteivät kaikki osanneet soveltaa ohjeitani omaan käyttöympäristöönsä, ja oli myös terävä opetus itselleni monenlaisen opiskelijan huomioimisessa.
-
-### Kotitehtävät: Ohjeiden orjallinen noudattaminen vs. soveltaminen
-
-Jotkut ihmiset noudattavat ohjeita orjallisesti, ja jotkut soveltavasti. Varsinkin ihmisillä, joille käytetty tekniikka ei ole tuttu, ohjeiden orjallinen noudattaminen korostuu eikä opittua tietoa osata soveltaa. Keskeistä on opettaa ihmisille ensin annettu tekniikka, ja tämän jälkeen korostaa soveltamisen tärkeyttä.
-
-Orjallisella noudattamisella on riski törmätä seinään ja mystisiin virhetilanteisiin. Varsinkin, kun kurssilla opetellaan tekniikoita, joista ei aina ole kattavaa informaatiota saatavilla, niin itseoppimisen ja sovellettavuuden merkitys korostuu.
-
-Kurssilla voisi miettiä, että varmistutaan opiskelijan perustyökalujen osaamistasosta: oli kyseessä Oracle VirtualBox, VMWare, Vagrant (että jokin esim. näistä olisi opiskelijalla hallussa entuudestaan) tai vaikkapa ohjelmien asennus, poisto, pakettivarastojen lisäys ym. Kali Linux -ympäristössä (apt/dpkg + PPA jne.). Hieman yllättävästi koetilanteessa joillakin ihmisillä oli hukassa esim. SaltStack:n PPA:n lisäys Kali Linux:iin, vaikka ohjeet ovat suoraan netissä pienen etsimisen takana ja riittävällä Linux-ymmärrystasolla sovellettavissa.
-
-### Kurssin opintopistemäärän kasvattaminen
-
-Edellä mainittujen ajankäyttöön liittyvien perusteluiden takia suosittelisin kurssin opintopistemäärän kasvattamista: Kurssi on omalta osaltani ollut ehdottomasti syksyn 2018 työläin (+ aikaavievin) 5 op:n kurssi itselläni, ja käytännössä syönyt kaiken ajan kahdelta vastaavan opintopistemäärän pakolliselta kurssilta, jotka täytyy nyt kiriä kiinni ennen täyttä tipahtamista. Tässä toki korostuu opiskelijan vastuu oman HOPS:n noudattamisesta, mutta työmäärään nähden 5 opintopistettä tuntuu henkilökohtaisesti liian vähältä. Jätän tämän opettajan ja Haaga-Helian harkinnan varaan, ja ymmärrän, että ennakkoon määrätyistä opintopistemääristä ei välttämättä kovin helpolla (jos lainkaan) jousteta.
 
 ## Viihdyitkö kurssilla?
 
