@@ -366,11 +366,15 @@ Edellä mainittujen ajankäyttöön liittyvien perusteluiden takia harkitsisin k
 
 > Harkitse. Kaikkea ei pysty opettamaan yhdessä periodissa.
 
-Kurssilla opittiin paljon penetraatiotestauksen keskeisiä menetelmiä, mutta havaitsin, että lisätiedolle olisi tarvetta. Ennen kaikkea omien troijalaisten/virusten tuottaminen sekä virustorjunnan ohittamisen tarve korostuivat. Jos kurssista koskaan järjestetään jatkototeutusta, harkitsisin em. osa-alueiden (koodaus + AB bypass) siirtämistä kyseisen jatkototeutuksen piiriin.
+**Vaihtoehto A)**
 
-Nämä jatkototeutukset edellyttävät jonkintasoista ohjelmointiosaamista (C/Python), ja liittyy siten laajempaan Haaga-Helian -kurssitoteutusten kontekstiin (~järjestetäänkö opiskelijoille kyseisten kielien opetusta riittävästi/lainkaan?).
+Kurssilla opittiin paljon penetraatiotestauksen keskeisiä menetelmiä, mutta havaitsin, että lisätiedolle olisi tarvetta. Ennen kaikkea omien troijalaisten/virusten tuottaminen sekä virustorjunnan ohittamisen tarve korostuivat. Jos kurssista koskaan järjestetään jatkototeutusta, harkitsisin em. osa-alueiden (koodaus + AV bypass) siirtämistä kyseisen jatkototeutuksen piiriin.
 
-Lisäksi mainittakoon, että varsinaisesti kurssin ulkopuolisen materiaalin katsominen sai minut havahtumaan, että tästä saisi helposti jatkototeutuksen tehtyä. Mutta mikä on kysynnän määrä?
+Nämä jatkototeutukset edellyttävät jonkintasoista ohjelmointiosaamista (C/Python), ja liittyy siten laajempaan Haaga-Helian -kurssitoteutusten kontekstiin. Toisin sanoen: järjestetäänkö opiskelijoille kyseisten kielien opetusta?
+
+**Vaihtoehto B)**
+
+Varsinaisesti kurssin ulkopuolisen materiaalin katsominen sai minut havahtumaan, että tästä saisi helposti myös toisenlaisen työkaluihin ja olemassa oleviin hyökkäystekniikoihin liittyvän jatkototeutuksen tehtyä, kysynnästä riippuen. Bluetooth-hyökkäykset, MITM, palvelunesto, sulautetut järjestelmät...
 
 ## Viihdyitkö kurssilla?
 
