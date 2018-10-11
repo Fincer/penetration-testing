@@ -290,7 +290,7 @@ Kurssilla korostui erityisesti opiskelijoiden kotitehtävinään itsetehdyt työ
 
 > Kotitehtävät söivät aikaa, mikä on ymmärrettävää kurssin luonteen vuoksi. Alla vähän detaljia.
 
-Hyökkäystekniikoiden selvitystyö ja analyysit veivät valtaosan ajasta, jotka itse käytin kotitehtävien tekoon. Monissa, joskaan ei kaikissa tehtävissä aikaa vei seuraavankaltainen työjärjestys
+Hyökkäystekniikoiden selvitystyö ja analyysit veivät valtaosan ajasta, jotka itse käytin kotitehtävien tekoon. Monissa hyökkäystekniikoiden selvitystyössä aikaa vei seuraavankaltainen työjärjestys
 
 ```
 Kotitehtävän osa 1: toteuta asia X
@@ -312,7 +312,7 @@ Ratkaisu:
     Ajankäyttö yhteensä, kotitehtävän osa 1: 3-9h
 ```
 
-Sama sykli toistui  joidenkin kotitehtävien osien kanssa. Ei aina, mutta paikoitellen. Tämän vuoksi koin erittäin tärkeänä jaksottaa tehtävien tekoa pitkin viikkoa, ja korostaa jaksottamisen tärkeyttä. Pyrin parhaani mukaan deadlineen "vuorokausi ennen tunteja". Ehkä pyrin itse liian täydellisyyteen aikataulun puitteissa. Ainakin tämä on käsitys, jonka saan muiden kurssipalautteita lukiessa.
+Tämän syklin vuoksi koin erittäin tärkeänä jaksottaa tehtävien tekoa pitkin viikkoa, ja korostaa jaksottamisen tärkeyttä. Pyrin parhaani mukaan deadlineen "vuorokausi ennen tunteja". Arvioisin viikkotyömääräksi yhden kotitehtävän osalta keskimäärin 10-25 tuntia, mutta vaihtelua oli paljon.
 
 ### Kurssin opetuslinjaus: huolellisesti opeteltu tekniikka vs. uuden oppiminen
 
@@ -354,7 +354,7 @@ Hieman yllättävästi koetilanteessa joillakin ihmisillä oli hukassa esim. Sal
 
 > Harkitse. Opintopisteitä enemmän. Kurssi oli työläs.
 
-Edellä mainittujen ajankäyttöön liittyvien perusteluiden takia suosittelisin kurssin opintopistemäärän kasvattamista: Kurssi on omalta osaltani ollut ehdottomasti syksyn 2018 työläin (+ aikaavievin) 5 op:n kurssi itselläni, ja käytännössä syönyt kaiken ajan kahdelta vastaavan opintopistemäärän pakolliselta kurssilta, jotka täytyy nyt kiriä kiinni ennen täyttä tipahtamista. Tässä toki korostuu opiskelijan vastuu oman HOPS:n noudattamisesta, mutta työmäärään nähden 5 opintopistettä tuntuu henkilökohtaisesti liian vähältä. Jätän tämän opettajan ja Haaga-Helian harkinnan varaan, ja ymmärrän, että ennakkoon määrätyistä opintopistemääristä ei välttämättä kovin helpolla (jos lainkaan) jousteta.
+Edellä mainittujen ajankäyttöön liittyvien perusteluiden takia harkitsisin kurssin opintopistemäärän kasvattamista: Kurssi on omalta osaltani ollut ehdottomasti syksyn 2018 työläin (+ aikaavievin) 5 op:n kurssi itselläni. Jätän tämän opettajan ja Haaga-Helian harkinnan varaan, ja ymmärrän, että ennakkoon määrätyistä opintopistemääristä ei välttämättä kovin helpolla (jos lainkaan) jousteta.
 
 ### Muuta: kurssille jatkoa?
 
