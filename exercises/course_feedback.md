@@ -292,7 +292,7 @@ Kurssilla korostui erityisesti opiskelijoiden kotitehtävinään itsetehdyt työ
 
 > Kotitehtävät söivät aikaa, opettivat paljon, ja antavat mahdollisuuden omien menetelmien jatkokehittämiseen. Kehkeytynyt aikapula oli ymmärrettävää kurssin luonteen vuoksi.
 
-Tekniikoiden kokeilu, testaus ja tekninen puzzleilu olivat mielenkiintoisia. Hyökkäystekniikoiden selvitystyö ja analyysit veivät valtaosan ajasta, jotka itse käytin kotitehtävien tekoon. Monissa hyökkäystekniikoiden selvitystyössä aikaa vei ennen kaikkea analyysien ja raporttien teko, ei niinkään tekninen testaus (tein testauksen yleensä minuuteissa, mutta raporttien kirjoitteluun perusteluineen meni tunteja). Noudatin jokseenkin joissakin tehtävissä seuraavanlaista työjärjestystä:
+Tekniikoiden kokeilu, testaus ja tekninen puzzleilu olivat mielenkiintoisia. Hyökkäystekniikoiden selvitystyö ja analysointi veivät valtaosan ajasta, jotka itse käytin kotitehtävien tekoon. Monissa hyökkäystekniikoiden selvitystyössä aikaa vei ennen kaikkea raporttien teko, ei niinkään tekninen testaus (tein testauksen yleensä minuuteissa, mutta raporttien kirjoitteluun perusteluineen meni tunteja). Noudatin jokseenkin joissakin tehtävissä seuraavanlaista työjärjestystä:
 
 ```
 Kotitehtävän osa 1: toteuta asia X
