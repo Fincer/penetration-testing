@@ -1,5 +1,67 @@
 # Penetration testing - vapaamuotoinen palaute kurssitoteutuksesta
 
+# Sisällysluettelo
+
+- [Opitko jotakin? - Omaa taustaa ja kyberturvallisuus](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---omaa-taustaa-ja-kyberturvallisuus)
+
+- [Opitko jotakin? - Oma oppiminen](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---oma-oppiminen)
+
+- [Opitko jotakin? - Kurssin keskeinen opetus](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---kurssin-keskeinen-opetus)
+
+- [Opitko jotakin? - Loppukäyttäjän ohjelmat](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---loppuk%C3%A4ytt%C3%A4j%C3%A4n-ohjelmat)
+
+- [Opitko jotakin? - Hyökkäystyökalujen määrä on rajaton](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---hy%C3%B6kk%C3%A4ysty%C3%B6kalujen-m%C3%A4%C3%A4r%C3%A4-on-rajaton)
+
+- [Opitko jotakin? - Hyöty kurssin ulkopuolella](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---hy%C3%B6ty-kurssin-ulkopuolella)
+
+- [Opitko jotakin? - Laajasti käytettyjen ammattiohjelmistojen heikko suojaus yllättää](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---laajasti-k%C3%A4ytettyjen-ammattiohjelmistojen-heikko-suojaus-yll%C3%A4tt%C3%A4%C3%A4)
+
+- [Opitko jotakin? - Kehittäjän vastuu](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---kehitt%C3%A4j%C3%A4n-vastuu)
+
+- [Opitko jotakin? - Tietoturva ja käytännöllisyys](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---tietoturva-ja-k%C3%A4yt%C3%A4nn%C3%B6llisyys)
+
+- [Opitko jotakin? - Uhkien tunnistus](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---uhkien-tunnistus)
+
+- [Missä aiot hyödyntää taitoja kurssin ulkopuolella? - Oma oppiminen jatkossa](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#miss%C3%A4-aiot-hy%C3%B6dynt%C3%A4%C3%A4-taitoja-kurssin-ulkopuolella---oma-oppiminen-jatkossa)
+
+- [Miten voisin parantaa kurssia? - Kurssin jatkokehitys](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#miten-voisin-parantaa-kurssia---kurssin-jatkokehitys)
+
+    - [Hyvä lähtölaukaus penetraatiotestauksen maailmaan](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#hyv%C3%A4-l%C3%A4ht%C3%B6laukaus-penetraatiotestauksen-maailmaan)
+
+    - [OWASP](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#owasp)
+
+    - [Stuxnet ja tieteelliset artikkelit](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#stuxnet-ja-tieteelliset-artikkelit)
+
+    - [Korkattavat koneet](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#korkattavat-koneet)
+
+    - [Tunneilla opittavat tekniikat](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#tunneilla-opittavat-tekniikat)
+
+    - [Skannausten agressiivisuudesta](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#skannausten-agressiivisuudesta)
+
+    - [Kotitehtävät](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t)
+
+    - [Kotitehtävien merkitys ja tiedonsaanti](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4vien-merkitys-ja-tiedonsaanti)
+
+    - [Kotitehtävät: käytetty aika](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t-k%C3%A4ytetty-aika)
+
+    - [Huolellisesti tehty hyökkäys vs. uuden oppiminen](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#huolellisesti-tehty-hy%C3%B6kk%C3%A4ys-vs-uuden-oppiminen)
+
+    - [Kotitehtävät: kurssille jatkoa?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t-kurssille-jatkoa)
+
+    - [Kotitehtävät: kurssin ensimmäisen toteutuksen hyödyntäminen jatkossa](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t-kurssin-ensimm%C3%A4isen-toteutuksen-hy%C3%B6dynt%C3%A4minen-jatkossa)
+
+    - [Kotitehtävät: yksi ohje ei päde](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t-yksi-ohje-ei-p%C3%A4de)
+
+    - [Kotitehtävät: Ohjeiden orjallinen noudattaminen vs. soveltaminen](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t-ohjeiden-orjallinen-noudattaminen-vs-soveltaminen)
+
+    - [Kurssin opintopistemäärän kasvattaminen](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kurssin-opintopistem%C3%A4%C3%A4r%C3%A4n-kasvattaminen)
+
+- [Viihdyitkö kurssilla?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#viihdyitk%C3%B6-kurssilla)
+
+- [Suosittelisitko kurssia? Kenelle? Koulutoverille tai kollegalle?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#suosittelisitko-kurssia-kenelle-koulutoverille-tai-kollegalle)
+
+- [Tämä oli Haaga-Helian ensimmäinen pentesting-kurssi koskaan. Kannattaako Pentesting-kurssia järjestää tulevaisuudessa?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#t%C3%A4m%C3%A4-oli-haaga-helian-ensimm%C3%A4inen-pentesting-kurssi-koskaan-kannattaako-pentesting-kurssia-j%C3%A4rjest%C3%A4%C3%A4-tulevaisuudessa)
+
 ----------------------
 
 ## Opitko jotakin? - Omaa taustaa ja kyberturvallisuus
@@ -273,7 +335,9 @@ Suosittelen kurssia kaikille, joilla on nämä kyvyt/piirteet:
 
 - into ja motivaatio kasvattaa osaamista tietoturvassa käytännön keinoin
 
-- riittävästi aikaa
+- riittävästi aikaa, intoa kooditason tiedonhakuun ja tietoteknistä ongelmanratkaisukykyä
+
+- hyvää englannintaitoa (itsestäänselvyys)
 
 Konkreettisimpana esimerkkinä tulisi ne Haaga-Helian ja muiden oppilaitosten opiskelijat, jotka kykenevät osaamisen, motivaation ja aikataulun puitteissa suorittamaan kurssin.
 
