@@ -282,17 +282,17 @@ Kotitehtävät olivat mielenkiintoisia, joskin itse yllätyin hieman siitä, ett
 
 > Tiedon keräämisen, kokemusten jakamisen ja tekniikoiden kokeilun tärkeyden korostus
 
-Kotitehtävät auttavat opiskelijaa syventymään aiheeseen. Penetraatiotestauksessa tämä on mielenkiintoista siksi, että dokumentaatiota tai "helposti saatavilla olevaa" informaatiota ei kaikesta välttämättä ole saatavilla, mikä lisää opiskelijan omaa vastuuta selvittää käytettyjen tekniikoiden toimivuus käyttöympäristössä: joskus saatavana referenssinä on yksi YouTube-video, GitHub:n Readme-tiedosto ja joskus pelkkä lähdekoodi tai yksittäinen kommentti.
+Kotitehtävät auttavat opiskelijaa syventymään aiheeseen. Penetraatiotestauksessa tämä on mielenkiintoista siksi, että dokumentaatiota tai "helposti saatavilla olevaa" informaatiota ei kaikesta välttämättä ole saatavilla, mikä lisää opiskelijan omaa vastuuta selvittää käytettyjen tekniikoiden toimivuus käyttöympäristössä. Monet tunnetut hyökkäystyökalut on jossain määrin dokumentoitu Kali Tools -verkkosivulla, mutta tuntemattomien työkalujen parhain referenssi on toisinaan yksi YouTube-video ja joskus pelkkä lähdekoodivarasto.
 
-Kurssilla korostui erityisesti opiskelijoiden kotitehtävinään itsetehdyt työkalu- ja tekniikkatestaukset: monista tekniikoista tietoa on niukasti saatavilla, joten mikä tahansa oppia antava tietolähde on tärkeä. Tässä korostuu myös tiedon jakamisen tärkeys opiskelijoiden kesken.
+Kurssilla korostui erityisesti opiskelijoiden kotitehtävinään itsetehdyt työkalu- ja tekniikkatestaukset: monista tekniikoista käytännön toteutettavuustietoa on niukasti saatavilla tai edellyttää Walkthrough-videoiden metsästämistä, joten mikä tahansa oppia antava tietolähde on tärkeä. Tässä korostuu myös tiedon jakamisen tärkeys opiskelijoiden kesken.
 
-### Kotitehtävät: käytetty aika
+### Kotitehtävät: käytetty aika ja lähestymistapa
 
 #### **Lyhyesti:**
 
-> Kotitehtävät söivät aikaa, mikä on ymmärrettävää kurssin luonteen vuoksi. Alla vähän detaljia.
+> Kotitehtävät söivät aikaa, opettivat paljon, ja antavat mahdollisuuden omien menetelmien jatkokehittämiseen. Kehkeytynyt aikapula oli ymmärrettävää kurssin luonteen vuoksi.
 
-Hyökkäystekniikoiden selvitystyö ja analyysit veivät valtaosan ajasta, jotka itse käytin kotitehtävien tekoon. Monissa hyökkäystekniikoiden selvitystyössä aikaa vei seuraavankaltainen työjärjestys
+Tekniikoiden kokeilu, testaus ja tekninen puzzleilu olivat mielenkiintoisia. Hyökkäystekniikoiden selvitystyö ja analyysit veivät valtaosan ajasta, jotka itse käytin kotitehtävien tekoon. Monissa hyökkäystekniikoiden selvitystyössä aikaa vei ennen kaikkea analyysien ja raporttien teko, ei niinkään tekninen testaus (tein testauksen yleensä minuuteissa, mutta raporttien kirjoitteluun perusteluineen meni tunteja). Noudatin jokseenkin joissakin tehtävissä seuraavanlaista työjärjestystä:
 
 ```
 Kotitehtävän osa 1: toteuta asia X
@@ -314,7 +314,9 @@ Ratkaisu:
     Ajankäyttö yhteensä, kotitehtävän osa 1: 3-9h
 ```
 
-Tämän syklin vuoksi koin erittäin tärkeänä jaksottaa tehtävien tekoa pitkin viikkoa, ja korostaa jaksottamisen tärkeyttä. Pyrin parhaani mukaan deadlineen "vuorokausi ennen tunteja". Arvioisin viikkotyömääräksi yhden kotitehtävän osalta keskimäärin 10-25 tuntia, mutta vaihtelua oli paljon.
+Joidenkin tehtävien tekoa olisin voinut nopeuttaa jättäen yksinkertaisesti väliraportoinnin tekemättä ja keskittyä maksimaalisesti onnistuneeseen walkthrough:n, mutta koin tärkeäksi käydä myös epäonnistumistilanteet läpi. Tämä lisää ymmärrystä tekniikoista itsestään paremmin verrattuna "tein hyökkäyksen, mutta en oikeastaan tajua mitä edes tein" -tyyliseen tilanteeseen. Lisäksi: hyökkäystekniikoiden jatkokehittämiseen kurssin ulkopuolella on nyt kattavampi tietous, kun myös selvät epäonnistumiset on kirjattu ylös kertomuksineen ja havaintoineen.
+
+Edellä kerrotun syklin vuoksi koin erittäin tärkeänä jaksottaa tehtävien tekoa pitkin viikkoa. Pyrin parhaani mukaan deadlineen "vuorokausi ennen tunteja". Arvioisin viikkotyömääräksi yhden kotitehtävän osalta keskimäärin 10-25 tuntia, mutta vaihtelua oli paljon tehtävän luonteesta riippuen.
 
 ### Kurssin opetuslinjaus: huolellisesti opeteltu tekniikka vs. uuden oppiminen
 
