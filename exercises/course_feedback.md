@@ -94,6 +94,8 @@ Ohjelmisto- ja infrakehittäjien vastuu tietoturvassa on suuri: on sinun vastuul
 
 Infrapuolella vastuu liittyy ennen kaikkea verkkoratkaisujen ja fyysisten tilojen suojausratkaisuihin sekä laitteistojen fyysiseen suojaukseen ja tiukkaan tietoturvapolitiikkaan.
 
+Hyökkäystyökalujen kehittämisessä olennaista on ohjelmistojen haavoittuvuuksien tunnistaminen sekä mielellään omien haittaohjelmien tuottaminen (kyllä: sinä koodaat ne itse from scratch). Vaikka tällainen toiminta on lähtökohtaisesti vihamielistä, on sinun vastuullasi toimia eettisesti, toteuttaa hyökkäys kaikkien asianosaisten hyväksynnällä ja tiedottaa asianosaisia löydetyistä haavoittuvuuksista eettisellä tavalla. Jos toimit vihamielisesti, kannat myös kaikki seuraamukset, eikä tällaiseen toimintaan kannusteta ketään.
+
 ----------------------
 
 ## Opitko jotakin? - Tietoturva ja käytännöllisyys
@@ -123,9 +125,11 @@ Erityisen uhkaava on tilanne, jos hyökkääjä havaitsee järjestelmässä haav
 ### **Lyhyesti:**
 > On omalla vastuulla käyttää opittuja tekniikoita eettisesti
 
-Hyökkäystyökalujen kehittämisessä olennaista on ohjelmistojen haavoittuvuuksien tunnistaminen sekä mielellään omien haittaohjelmien tuottaminen (kyllä: sinä koodaat ne itse from scratch). Vaikka tällainen toiminta on lähtökohtaisesti vihamielistä, on sinun vastuullasi toimia eettisesti, toteuttaa hyökkäys kaikkien asianosaisten hyväksynnällä ja tiedottaa asianosaisia löydetyistä haavoittuvuuksista eettisellä tavalla. Jos toimit vihamielisesti, kannat myös kaikki seuraamukset, eikä tällaiseen toimintaan kannusteta ketään. 
+Kurssin keskeisenä ohjenuorana ja kirjallisena sitoumuksena on toimia eettisesti hyökkäysten toteuttamisessa rajatussa ja kaikkien asianosaisten hyväksymässä ympäristössä. Tämä ohjenuora on myös syytä pitää jatkossa, jos aikoo kehittyä kyberturvallisuuden ammattilaiseksi - eikä rikolliseksi. Kurssi ei anna ohjeita toteuttaa hyökkäyksiä jäämättä kiinni.
 
-Kurssin keskeisenä ohjenuorana ja kirjallisena sitoumuksena onkin toimia eettisesti hyökkäysten toteuttamisessa rajatussa ja kaikkien asianosaisten hyväksymässä ympäristössä. Tämä ohjenuora on myös syytä pitää, jos aiot kehittyä kyberturvallisuuden ammattilaiseksi - etkä rikolliseksi. Kurssi ei anna ohjeita toteuttaa hyökkäyksiä jäämättä kiinni.
+Koen kyberturvallisuuden oppimisessa tärkeänä, että kurssin aihepiiri läpäisee IT:tä yleisellä tasolla, koska osittaisena alanvaihtajana penetraatiotestaus voi tarjota itselleni uusia mielenkiintoisia ja erikoislaatuisia mahdollisuuksia myös aiempaan ammattialaani liittyen.
+
+Kyberturvallisuus linkittyy myös fyysiseen turvallisuuteen. Olen aiemmin ollut tekemisissä fyysiseen turvallisuuteen liittyvien turvaratkaisujen parissa.
 
 ----------------------
 
@@ -259,8 +263,6 @@ Kurssi jätti paljon itse oppimisen varaan, mutta tämä mahdollisti sen, että 
 
 Viihdyin kurssilla. Jokaisella lähiopetuskerralla tuli jotain uutta tai vähintään hyvää oppimisen arvoista tietoa, eikä mitään "olen tiennyt tämän jo 10 vuotta"-tyylistä vanhaa kauraa, jota joillakin kursseilla tulee nähtyä. Uusi aihesisältö myös kasvatti omaa motivaatiotani sen lisäksi, että koen aihepiirin muutenkin tärkeänä ja ehdottomasti oppimisen arvoisena ammattialasta riippumatta.
 
-Koen kyberturvallisuuden oppimisessa tärkeänä, että kurssin aihepiiri läpäisee IT:tä yleisellä tasolla, koska osittaisena alanvaihtajana penetraatiotestaus voi tarjota itselleni uusia mielenkiintoisia mahdollisuuksia myös aiempaan ammattialaani liittyen.
-
 ## Suosittelisitko kurssia? Kenelle? Koulutoverille tai kollegalle?
 
 Suosittelen kurssia kaikille, joilla on nämä kyvyt/piirteet:
@@ -280,5 +282,3 @@ Konkreettisimpana esimerkkinä tulisi ne Haaga-Helian ja muiden oppilaitosten op
 Kyllä!
 
 Kyberturvallisuuteen liittyvän osaamisen harjaannuttaminen korostuu maailmassa, jossa kaikki ammattialat tuntuvat työntyvän etenevissä määrin IT-pohjaisiin ratkaisuihin, ja joissa implementaatiot eivät ole aina siitä tietoturvallisimmista päästä.
-
-Kyberturvallisuus linkittyy myös fyysiseen turvallisuuteen. Olen aiemmin ollut tekemisissä fyysiseen turvallisuuteen liittyvien turvaratkaisujen parissa.
