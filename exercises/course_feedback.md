@@ -48,7 +48,7 @@
 
     - [Tehtävät ja tekniikat: yksi ohje ei päde](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#teht%C3%A4v%C3%A4t-ja-tekniikat-yksi-ohje-ei-p%C3%A4de)
 
-    - [Muuta: Kurssin opintopistemäärän kasvattaminen](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#muuta-kurssin-opintopistem%C3%A4%C3%A4r%C3%A4n-kasvattaminen)
+    - [Muuta: Kurssin opintopistemäärän kasvattaminen?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#muuta-kurssin-opintopistem%C3%A4%C3%A4r%C3%A4n-kasvattaminen?)
 
     - [Muuta: kurssille jatkoa?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#muuta-kurssille-jatkoa)
 
@@ -89,6 +89,8 @@ Penetraatiotestaukseen liittyviä keskeisiä työkaluja en ennen kurssia ollut j
 ### **Lyhyesti:**
 > Suosittelen kurssia kaikille IT-alan ammattilaisille, joilla on Linux- ja palvelintaustaa. Yleisluontoisempana kurssi kävisi myös muille IT-alan ammattilaisille, mutta keskeisin konkreettinen sisältö eli hyökkäystekniikoiden toteutus jäisi puutteellisen tietotaidon vuoksi tekemättä.
 
+> Kurssin nykyinen toteutusmuoto edellyttää käytännön Linux-, palvelin- ja verkko-osaamista
+
 Hyökkäystekniikoiden ja -työkalujen opettelu on keskeistä, koska näin voidaan sovellus- ja infrasuunnittelussa ottaa huomioon ja ymmärtää oman kokemuksen ja konkretian kautta vihamieliset hyökkäystekniikat. Kurssi antaa käytännön kykyjä miettiä vastatoimia erilaisia hyökkäyksiä vastaan laajassa skaalassa niin loppukäyttäjän kannalta kuin kriittisissäkin yritysjärjestelmissä. 
 
 On erittäin tärkeää tietää vähintään perusteet siitä, miten hyökkääjät ohittavat tietojärjestelmiä, koska tämä tieto antaa konkreettista pohjaa tehokkaiden vastatoimien suunnittelulle. Kurssi opetti käytännössä sen, että mikään järjestelmä ei ole täysin suojassa vihamielistä toimintaa kohtaan - varsinkin, jos tietoturvaa ei osata käsitellä tai ymmärretä oikein. Tämä koskee myös tietoturvallisena pidettyä Linuxia, jota vastaan löytyy myös valmiita hyökkäystyökaluja ja jotka heikosti tai väärin suojattuna ovat alttiita vihamieliselle toiminnalle niin ikään Windowsin lisäksi.
@@ -102,7 +104,7 @@ On erittäin tärkeää tietää vähintään perusteet siitä, miten hyökkää
 ### **Lyhyesti:**
 > Kurssi antaa keskeisen ymmärryksen avoimen lähdekoodin tärkeydestä sekä suljettuihin ratkaisuihin ja epämäärisiin binääreihin liittyvistä riskeistä. Myös avoimen lähdekoodin ratkaisut tulisi auditoida, monesti lähdekoodista lähtien.
 
-> Mitä opetti: Älä luota binääriin. Luota koodiin, jonka ymmärrät ja analysoit.
+> Mitä opetti: Älä luota binääriin. Luota koodiin, jonka ymmärrät ja auditoit.
 
 Kurssi antaa oppia kaiken kaikkiaan siitä, mikä muodostaa koko tietoturvan perustan, ja mitä voi tapahtua, kun tietoturvaa laiminlyödään: oli kyse sitten palvelin- tai asiakaspuolesta, kuluttajasta tai yrityskäyttäjästä. Tämä ei tunnu monelle IT-alan ammattilaisellekaan olevan selvää.
 
@@ -115,7 +117,7 @@ Takaoven saaminen uhrin tietokoneelle voi olla erittäin helppoa, ja naiivi *suo
 ### **Lyhyesti:**
 > Vihamielisiä hyökkäystekniikoita on räjähdysmäinen määrä. Kurssilla käytiin läpi keskeisiä, mutta opittavaa olisi todellakin PALJON enemmän (mm. Bluetooth-hyökkäykset, MITM, Wlan-tukiasemahyökkäykset...). Lisäksi on suositeltavaa koodata itse omat hyökkäys, jos tavoite on testata järjestelmän haavoittuvuutta ja läpäistä tietoturva (valvotusti).
 
-> Mitä opetti: Ennen kurssia en ollut ymmärtänyt hyökkäystyökalujen ja tekniikoiden räjähdysmäistä määrää.
+> Mitä opetti: Ennen kurssia en ollut ymmärtänyt hyökkäystyökalujen ja tekniikoiden räjähdysmäistä määrää ja sitä, että lisää tulee koko ajan.
 
 Linuxissa käytettävien hyökkäystyökalujen määrässä, hyödyllisten komentojen opettelussa ja hyökkäyskoodien kirjoittamisessa vain taivas on rajana. Ei tule päivää, jolloin ei oppisi jotain uutta. Kurssilla käytettiin Kali Linux -penetraatiodistribuutiota. Itse tutustuin myös BlackArch Linux:iin, jossa väitetään olevan yli 2000 työkalua vihamieliseen tai tietoturvaan liittyviin toimintoihin. Kurssilla kävimme läpi muutamia keskeisiä näistä työkaluista, jotka löytyivät Kali Linux:sta (2018.3).
 
@@ -128,7 +130,7 @@ Erittäin keskeistä hyökkääjän kannalta on tuottaa täysin omia haittatyök
 ### **Lyhyesti:**
 > Kurssi on lähtölaukaus maailmaan, joka liippaa kaikkia IT:tä käyttäviä ammattialoja
 
-> Mitä opetti: Kyberturvallisuus on huomioitava monenlaisilla ammattialoilla, jotka käyttävät IT:tä, mutta eivät ole suoranaisesti IT-aloja.
+> Mitä opetti: Kyberturvallisuus on huomioitava monenlaisilla ammattialoilla, myös niillä, jotka eivät ole suoranaisesti IT-aloja, mutta käyttävät IT:tä toiminnassaan.
 
 Kyberturvallisuuden tärkeys skaalautuu kaikkiin IT-pohjaisiin järjestelmiin ja käyttöympäristöihin. Kurssista on hyötyä, mistä tahansa IT-järjestelmästä puhummekin ammattialasta riippumatta.
 
@@ -143,7 +145,7 @@ Omana esimerkkinä voisin kysyä seuraavaa: mitä tapahtuu, jos kykenemme toteut
 ### **Lyhyesti:**
 > Luulin ja tuudittauduin uskoon, että ohjelmistokehittäjät ovat "ohjelmistotekniikan ammattilaisina" turvanneet laajasti käytetyt ammattiohjelmistot tai antaneet turvallisia ohjeistuksia niiden käyttöön liittyen. Olin väärässä - todella pahasti.
 
-> Mitä opetti: ammattikehittäjät eivät aina suojaa ratkaisujaan monenlaisia hyökkäystekniikoita vastaan.
+> Mitä opetti: ammattikehittäjät eivät aina suojaa ratkaisujaan monenlaisia hyökkäystekniikoita vastaan. Kehittäjä ei ole jumala, kehittäjä on ihminen inhimillisine piirteineen.
 
 Kyberturvallisuuteen perehtymättömät kehittäjät eivät ilmeisesti ymmärrä ottaa ohjelmistosuunnittelussa tietoturvaa huomioon - tai ottavat sen huomioon puutteellisesti/vajavaisin tiedoin. Esimerkkinä web-ohjelmistot sekä eräs aiempaan ammattialaani liittyvä palvelinohjelmisto, jonka ydinsuunnittelussa huomasin selkeitä tietoturvapuutteita ja laiminlyöntejä "helpomman käytön" kustannuksella.
 
@@ -175,9 +177,9 @@ Ohjelmistojen tietoturva ja käytännöllisyys kulkevat käsi kädessä. Joissai
 
 Tietoturvan toteuttamisessa täytyy tunnistaa uhkatekijät, järjestelmän kokonaisvaltainen ohjelmistollinen sekä konkreettinen rakenne, sijainti ja avoimuus sekä sen kehittäjä-, ylläpito- ja käyttäjäryhmät. Järjestelmän suojaus, auditointi, analysointi ja asianmukainen tietoturvapolitiikka auttavat, mutta eivät ole vedenpitäviä ratkaisuja. On silti erittäin keskeistä suojata järjestelmät, analysoida lokeja, järjestelmän toimintaa sekä verkkoliikennettä - ja mikä tärkeintä, ei saa olla naiivi ohjelmistojen, järjestelmien ja ihmisten kanssa (kyllä, ihmisetkin voivat olla uhka, myös se parhain työkaveri, ks. social engineering).
 
-Keskeistä on olla mahdollista hyökkääjää yhden askeleen edellä ja suunnitella tehokkaat ennakkotoimenpiteet vihamielistä toimintaa kohtaan. Mikäli hyökkääjä on järjestelmässä, pitäisi hyökkääjä havaita ja pysäyttää mahdollisimman pian sekä vastatoimenpiteet suojata (kyllä: suojata, ettei niitä voi huomaamattomasti kytkeä pois). Jos hyökkääjä pääsee järjestelmään, on oltava suojakeino, jolla vahinko minimoituu ja toiminta keskeytyy (vaikkakin peli ollaan jo tässä osittain hävitty).
+Keskeistä on olla mahdollista hyökkääjää yhden askeleen edellä ja suunnitella tehokkaat ennakkotoimenpiteet vihamielistä toimintaa kohtaan. Mikäli hyökkääjä on järjestelmässä, pitäisi hyökkääjä havaita ja pysäyttää mahdollisimman pian sekä vastatoimenpiteet suojata (kyllä: suojata, ettei niitä voi huomaamattomasti kytkeä pois). Jos hyökkääjä pääsee järjestelmään, on oltava suojakeino, jolla vahinko minimoituu ja toiminta keskeytyy (vaikkakin peli ollaan jo tässä osittain hävitty!).
 
-Erityisen uhkaava on tilanne, jos hyökkääjä havaitsee järjestelmässä haavoittuvalle alttiin ohjelman tai ohjelmaversion, kuten palvelinohjelmiston ja/tai kykenee tekemään siirtymää kriittisessä sisäverkossa ja peittämään jälkensä tunkeutumisesta ohi turvajärjestelmien. Tiedon vuotaminen on oma lukunsa.
+Erityisen uhkaava on tilanne, jos hyökkääjä havaitsee järjestelmässä haavoittuvalle alttiin ohjelman tai ohjelmaversion, kuten palvelinohjelmiston, saa käsiinsä arkaluonteista tietoa ja/tai kykenee tekemään siirtymää kriittisessä sisäverkossa piilottaen jälkensä tunkeutumisesta ohi turvajärjestelmien.
 
 ----------------------
 
@@ -186,9 +188,9 @@ Erityisen uhkaava on tilanne, jos hyökkääjä havaitsee järjestelmässä haav
 ### **Lyhyesti:**
 > On omalla vastuulla käyttää opittuja tekniikoita eettisesti
 
-> Mitä opetti: sovellan oppimaani tulevissa IT-ratkaisuissa ja parannan nykyisiä. Toteutan penetraatiotestausta omiin palvelinjärjestelmiini jatkossa sekä seuraan tiiviimmin haavoittuvuuksiin liittyvää uutisointia ja CVE-havaintoja.
+> Mitä opetti: Löysin kaksi uutta peliä: HackTheBox ja VulnHub. Lisäksi sovellan oppimaani tulevissa IT-ratkaisuissa ja parannan nykyisiä. Toteutan penetraatiotestausta omiin palvelinjärjestelmiini jatkossa sekä seuraan tiiviimmin haavoittuvuuksiin liittyvää uutisointia ja CVE-havaintoja.
 
-Kurssin keskeisenä ohjenuorana ja kirjallisena sitoumuksena on toimia eettisesti hyökkäysten toteuttamisessa rajatussa ja kaikkien asianosaisten hyväksymässä ympäristössä. Tämä ohjenuora on myös syytä pitää jatkossa, jos aikoo kehittyä kyberturvallisuuden ammattilaiseksi - eikä rikolliseksi. Kurssi ei anna ohjeita toteuttaa hyökkäyksiä jäämättä kiinni.
+On välillä kiva naksutella HackTheBoxin koneiden parissa, VulnHub:n tarjontaan pitää myös tutustua paremmin. Ja ei tarvitse arvata, että vastaavia alustoja löytyy varmasti eksponentiaalisesti enemmänkin. Hyöty ja huvi samassa.
 
 Koen kyberturvallisuuden oppimisessa tärkeänä, että kurssin aihepiiri läpäisee IT:tä yleisellä tasolla, koska osittaisena alanvaihtajana penetraatiotestaus voi tarjota itselleni uusia mielenkiintoisia ja erikoislaatuisia mahdollisuuksia myös aiempaan ammattialaani liittyen.
 
@@ -348,7 +350,7 @@ Kurssilla voisi olla lisävarmistus opiskelijan perustyökalujen käyttötasosta
 
 Hieman yllättävästi koetilanteessa joillakin ihmisillä oli hukassa esim. SaltStack:n PPA:n lisäys Kali Linux:iin, vaikka ohjeet ovat suoraan netissä pienen etsimisen takana ja riittävällä Linux-ymmärrystasolla sovellettavissa.
 
-### Muuta: Kurssin opintopistemäärän kasvattaminen
+### Muuta: Kurssin opintopistemäärän kasvattaminen?
 
 #### **Lyhyesti:**
 
