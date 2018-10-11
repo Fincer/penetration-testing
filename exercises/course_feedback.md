@@ -197,7 +197,7 @@ Kyberturvallisuus linkittyy myös fyysiseen turvallisuuteen. Olen aiemmin ollut 
 
 ## Miten voisin parantaa kurssia? - Kurssin jatkokehitys
 
-### Perustieto: Hyvä lähtölaukaus penetraatiotestauksen maailmaan
+### Perustietoa: Hyvä lähtölaukaus penetraatiotestauksen maailmaan
 
 #### **Lyhyesti:**
 
