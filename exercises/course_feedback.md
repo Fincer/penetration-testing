@@ -26,35 +26,33 @@
 
 - [Miten voisin parantaa kurssia? - Kurssin jatkokehitys](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#miten-voisin-parantaa-kurssia---kurssin-jatkokehitys)
 
-    - [Hyvä lähtölaukaus penetraatiotestauksen maailmaan](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#hyv%C3%A4-l%C3%A4ht%C3%B6laukaus-penetraatiotestauksen-maailmaan)
+    - [Perustietoa: Hyvä lähtölaukaus penetraatiotestauksen maailmaan](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#perustietoa-hyv%C3%A4-l%C3%A4ht%C3%B6laukaus-penetraatiotestauksen-maailmaan)
 
-    - [OWASP](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#owasp)
+    - [Perustietoa: OWASP](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#perustietoa-owasp)
 
-    - [Stuxnet ja tieteelliset artikkelit](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#stuxnet-ja-tieteelliset-artikkelit)
+    - [Perustietoa: Stuxnet ja tieteelliset artikkelit](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#perustietoa-stuxnet-ja-tieteelliset-artikkelit)
 
-    - [Korkattavat koneet](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#korkattavat-koneet)
+    - [Korkattavat koneet: Walkthrough vs. DIY](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#korkattavat-koneet-walkthrough-vs-diy)
 
-    - [Tunneilla opittavat tekniikat](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#tunneilla-opittavat-tekniikat)
+    - [Tekniikat](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#tekniikat)
 
-    - [Skannausten agressiivisuudesta](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#skannausten-agressiivisuudesta)
+    - [Tekniikat: Skannausten agressiivisuudesta](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#tekniikat-skannausten-agressiivisuudesta)
+
+    - [Tekniikat: Porttiskannauksen perusteet?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#tekniikat-porttiskannauksen-perusteet)
 
     - [Kotitehtävät](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t)
 
-    - [Kotitehtävien merkitys ja tiedonsaanti](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4vien-merkitys-ja-tiedonsaanti)
+    - [Kotitehtävät: tehtävien merkitys ja tiedonsaanti](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t-teht%C3%A4vien-merkitys-ja-tiedonsaanti)
 
     - [Kotitehtävät: käytetty aika](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t-k%C3%A4ytetty-aika)
 
-    - [Huolellisesti tehty hyökkäys vs. uuden oppiminen](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#huolellisesti-tehty-hy%C3%B6kk%C3%A4ys-vs-uuden-oppiminen)
+    - [Kurssin opetuslinjaus: huolellisesti opeteltu tekniikka vs. uuden oppiminen](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kurssin-opetuslinjaus-huolellisesti-opeteltu-tekniikka-vs-uuden-oppiminen)
 
-    - [Kotitehtävät: kurssille jatkoa?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t-kurssille-jatkoa)
+    - [Tehtävät ja tekniikat: yksi ohje ei päde](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#teht%C3%A4v%C3%A4t-ja-tekniikat-yksi-ohje-ei-p%C3%A4de)
 
-    - [Kotitehtävät: kurssin ensimmäisen toteutuksen hyödyntäminen jatkossa](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t-kurssin-ensimm%C3%A4isen-toteutuksen-hy%C3%B6dynt%C3%A4minen-jatkossa)
+    - [Muuta: Kurssin opintopistemäärän kasvattaminen](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#muuta-kurssin-opintopistem%C3%A4%C3%A4r%C3%A4n-kasvattaminen)
 
-    - [Kotitehtävät: yksi ohje ei päde](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t-yksi-ohje-ei-p%C3%A4de)
-
-    - [Kotitehtävät: Ohjeiden orjallinen noudattaminen vs. soveltaminen](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kotiteht%C3%A4v%C3%A4t-ohjeiden-orjallinen-noudattaminen-vs-soveltaminen)
-
-    - [Kurssin opintopistemäärän kasvattaminen](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kurssin-opintopistem%C3%A4%C3%A4r%C3%A4n-kasvattaminen)
+    - [Muuta: kurssille jatkoa?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#muuta-kurssille-jatkoa)
 
 - [Viihdyitkö kurssilla?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#viihdyitk%C3%B6-kurssilla)
 
