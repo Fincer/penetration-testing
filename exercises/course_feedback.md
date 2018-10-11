@@ -14,9 +14,7 @@
 
 - [Opitko jotakin? - Hyöty kurssin ulkopuolella](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---hy%C3%B6ty-kurssin-ulkopuolella)
 
-- [Opitko jotakin? - Laajasti käytettyjen ammattiohjelmistojen heikko suojaus yllättää](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---laajasti-k%C3%A4ytettyjen-ammattiohjelmistojen-heikko-suojaus-yll%C3%A4tt%C3%A4%C3%A4)
-
-- [Opitko jotakin? - Kehittäjän vastuu](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---kehitt%C3%A4j%C3%A4n-vastuu)
+- [Opitko jotakin? - Laajasti käytettyjen ammattiratkaisujen heikko suojaus yllättää](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---laajasti-k%C3%A4ytettyjen-ammattiratkaisujen-heikko-suojaus-yll%C3%A4tt%C3%A4%C3%A4)
 
 - [Opitko jotakin? - Tietoturva ja käytännöllisyys](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---tietoturva-ja-k%C3%A4yt%C3%A4nn%C3%B6llisyys)
 
@@ -104,6 +102,8 @@ On erittäin tärkeää tietää vähintään perusteet siitä, miten hyökkää
 ### **Lyhyesti:**
 > Kurssi antaa keskeisen ymmärryksen avoimen lähdekoodin tärkeydestä sekä suljettuihin ratkaisuihin ja epämäärisiin binääreihin liittyvistä riskeistä. Myös avoimen lähdekoodin ratkaisut tulisi auditoida, monesti lähdekoodista lähtien.
 
+> Mitä opetti: Älä luota binääriin. Luota koodiin, jonka ymmärrät ja analysoit.
+
 Kurssi antaa oppia kaiken kaikkiaan siitä, mikä muodostaa koko tietoturvan perustan, ja mitä voi tapahtua, kun tietoturvaa laiminlyödään: oli kyse sitten palvelin- tai asiakaspuolesta, kuluttajasta tai yrityskäyttäjästä. Tämä ei tunnu monelle IT-alan ammattilaisellekaan olevan selvää.
 
 Takaoven saaminen uhrin tietokoneelle voi olla erittäin helppoa, ja naiivi *suojauksia käyttämätön* tai väliinpitämätön uhri ei voi välttämättä missään vaiheessa tietää, että hänen koneelleen on tunkeuduttu, ellei tietoturvasta huolehdi kukaan.
@@ -113,7 +113,9 @@ Takaoven saaminen uhrin tietokoneelle voi olla erittäin helppoa, ja naiivi *suo
 ## Opitko jotakin? - Hyökkäystyökalujen määrä on rajaton
 
 ### **Lyhyesti:**
-> Vihamielisiä hyökkäystekniikoita on eksponentiaalinen määrä. Kurssilla käytiin läpi keskeisiä, mutta opittavaa olisi todellakin PALJON enemmän (mm. Bluetooth-hyökkäykset, MITM, Wlan-tukiasemahyökkäykset...). Lisäksi on suositeltavaa koodata itse omat hyökkäys, jos tavoite on testata järjestelmän haavoittuvuutta ja läpäistä tietoturva (valvotusti).
+> Vihamielisiä hyökkäystekniikoita on räjähdysmäinen määrä. Kurssilla käytiin läpi keskeisiä, mutta opittavaa olisi todellakin PALJON enemmän (mm. Bluetooth-hyökkäykset, MITM, Wlan-tukiasemahyökkäykset...). Lisäksi on suositeltavaa koodata itse omat hyökkäys, jos tavoite on testata järjestelmän haavoittuvuutta ja läpäistä tietoturva (valvotusti).
+
+> Mitä opetti: Ennen kurssia en ollut ymmärtänyt hyökkäystyökalujen ja tekniikoiden räjähdysmäistä määrää.
 
 Linuxissa käytettävien hyökkäystyökalujen määrässä, hyödyllisten komentojen opettelussa ja hyökkäyskoodien kirjoittamisessa vain taivas on rajana. Ei tule päivää, jolloin ei oppisi jotain uutta. Kurssilla käytettiin Kali Linux -penetraatiodistribuutiota. Itse tutustuin myös BlackArch Linux:iin, jossa väitetään olevan yli 2000 työkalua vihamieliseen tai tietoturvaan liittyviin toimintoihin. Kurssilla kävimme läpi muutamia keskeisiä näistä työkaluista, jotka löytyivät Kali Linux:sta (2018.3).
 
@@ -126,6 +128,8 @@ Erittäin keskeistä hyökkääjän kannalta on tuottaa täysin omia haittatyök
 ### **Lyhyesti:**
 > Kurssi on lähtölaukaus maailmaan, joka liippaa kaikkia IT:tä käyttäviä ammattialoja
 
+> Mitä opetti: Kyberturvallisuus on huomioitava monenlaisilla ammattialoilla, jotka käyttävät IT:tä, mutta eivät ole suoranaisesti IT-aloja.
+
 Kyberturvallisuuden tärkeys skaalautuu kaikkiin IT-pohjaisiin järjestelmiin ja käyttöympäristöihin. Kurssista on hyötyä, mistä tahansa IT-järjestelmästä puhummekin ammattialasta riippumatta.
 
 Kurssilla ja sen ulkopuolella kurssin aikana opitut hyökkäystekniikat on yleensä rajattu tietynlaiseen käyttöympäristöön. Ympäristöjä on kuitenkin todella paljon aina verkkosivuista tietyn ammattialan laitteisto/ohjelmistokombinaatioon sekä sulautettuihin järjestelmiin saakka.
@@ -134,27 +138,20 @@ Omana esimerkkinä voisin kysyä seuraavaa: mitä tapahtuu, jos kykenemme toteut
 
 ----------------------
 
-## Opitko jotakin? - Laajasti käytettyjen ammattiohjelmistojen heikko suojaus yllättää
+## Opitko jotakin? - Laajasti käytettyjen ammattiratkaisujen heikko suojaus yllättää
 
 ### **Lyhyesti:**
 > Luulin ja tuudittauduin uskoon, että ohjelmistokehittäjät ovat "ohjelmistotekniikan ammattilaisina" turvanneet laajasti käytetyt ammattiohjelmistot tai antaneet turvallisia ohjeistuksia niiden käyttöön liittyen. Olin väärässä - todella pahasti.
 
-Itselle konkreettisin havainto on, että kyberturvallisuuteen perehtymättömät kehittäjät eivät ilmeisesti ymmärrä ottaa ohjelmistosuunnittelussa tietoturvaa huomioon - tai ottavat sen huomioon puutteellisesti/vajavaisin tiedoin. Esimerkkinä web-ohjelmistot sekä eräs aiempaan ammattialaani liittyvä palvelinohjelmisto, jonka ydinsuunnittelussa huomasin selkeitä tietoturvapuutteita ja laiminlyöntejä "helpomman käytön" kustannuksella.
+> Mitä opetti: ammattikehittäjät eivät aina suojaa ratkaisujaan monenlaisia hyökkäystekniikoita vastaan.
+
+Kyberturvallisuuteen perehtymättömät kehittäjät eivät ilmeisesti ymmärrä ottaa ohjelmistosuunnittelussa tietoturvaa huomioon - tai ottavat sen huomioon puutteellisesti/vajavaisin tiedoin. Esimerkkinä web-ohjelmistot sekä eräs aiempaan ammattialaani liittyvä palvelinohjelmisto, jonka ydinsuunnittelussa huomasin selkeitä tietoturvapuutteita ja laiminlyöntejä "helpomman käytön" kustannuksella.
 
 Mainitussa palvelinohjelmistossa on huomioitu ammattialaan liittyvä keskeinen toiminnallisuus hyvin, mutta käyttöä varten annetut viralliset, julkiset ohjeet ovat suoraan sanottuna täysin epäammattimaisia ja vaarallisia kyberturvallisuuden näkökulmasta. Lisäksi ohjelmakoodissa on kyberturvallisuuden kannalta vaarallisia implementointeja. Mikä pelottavinta, näistä ei tunnu olevan julkista keskustelua missään verkossa eivätkä kehittäjät eivät tiedota käyttäjiä, vaikka vaarallisuus on täysin ilmiselvää. Käyttäjät eivät taas ymmärrä tietoturvan päälle lähtökohtaisesti paljoakaan. Kehittäjien asenteellisuus ja tekninen ymmärrys tietoturvaa kohtaan ovat ratkaisevassa roolissa.
 
-----------------------
+Ohjelmisto- ja infrakehittäjien vastuu tietoturvassa on suuri: on kehittäjän vastuu tuottaa loppukäyttäjille turvallisia (ei-haitallisia) ratkaisuja, ja ottaa tietoturva huomioon jo suunnittelussa. Jos laiminlyö tietoturvaa tai ei tee penetraatiotestausta, voi vihamielinen hyökkääjä havaita haavoittuvuudet, ja tämän jälkeen Pandoran lipas on auki. Ohjelmiston suojaaminen eri murtoyrityksiä (debugger-tekniikat) vastaan on tärkeää.
 
-## Opitko jotakin? - Kehittäjän vastuu
-
-### **Lyhyesti:**
-> Kehittäjän vastuu on suuri
-
-Ohjelmisto- ja infrakehittäjien vastuu tietoturvassa on suuri: on sinun vastuullasi ohjelmisto- tai infrakehittäjänä tuottaa loppukäyttäjille turvallisia (ei-haitallisia) ratkaisuja, ja ottaa tietoturva huomioon jo suunnittelussa. Jos laiminlyöt tietoturvan tai et tee penetraatiotestausta kehitysympäristössäsi, voi vihamielinen hyökkääjä havaita haavoittuvuudet, ja tämän jälkeen Pandoran lipas on auki. Ohjelmiston suojaaminen eri murtoyrityksiä (debugger-tekniikat) vastaan on myös tärkeää. 
-
-Infrapuolella vastuu liittyy ennen kaikkea verkkoratkaisujen ja fyysisten tilojen suojausratkaisuihin sekä laitteistojen fyysiseen suojaukseen ja tiukkaan tietoturvapolitiikkaan.
-
-Hyökkäystyökalujen kehittämisessä olennaista on ohjelmistojen haavoittuvuuksien tunnistaminen sekä mielellään omien haittaohjelmien tuottaminen (kyllä: sinä koodaat ne itse from scratch). Vaikka tällainen toiminta on lähtökohtaisesti vihamielistä, on sinun vastuullasi toimia eettisesti, toteuttaa hyökkäys kaikkien asianosaisten hyväksynnällä ja tiedottaa asianosaisia löydetyistä haavoittuvuuksista eettisellä tavalla. Jos toimit vihamielisesti, kannat myös kaikki seuraamukset, eikä tällaiseen toimintaan kannusteta ketään.
+Infrapuolella vastuu liittyy ennen kaikkea verkkoratkaisujen ja fyysisten tilojen suojausratkaisuihin sekä laitteistojen fyysiseen suojaukseen ja säädettyyn tietoturvapolitiikkaan sekä sen noudattamiseen.
 
 ----------------------
 
@@ -162,6 +159,8 @@ Hyökkäystyökalujen kehittämisessä olennaista on ohjelmistojen haavoittuvuuk
 
 ### **Lyhyesti:**
 > "Tietoturva vs käytännöllisyys" vai "tietoturva ja käytännöllisyys"
+
+> Mitä opetti: Tietoturva pitäisi aina huomioida, viitsisi tai ei. Laiska lenkki on löysin ja heikoin lenkki.
 
 Ohjelmistojen tietoturva ja käytännöllisyys kulkevat käsi kädessä. Joissain tapauksissa on niin, että tiukemmat tietoturvavaatimukset tulevat implementoiduksi *käytettävyyden kustannuksella*, ja päin vastoin. Tässä piilee riski siihen, että käytettävyydelle annetaan liikaa sijaa tietoturvan kustannuksella, ja vihamielinen taho huomaa sekä käyttää havaitsemaansa haavoittuvuutta (fyysistä tai tietoteknistä) hyväksi - pahimmillaan muiden tietämättä.
 
@@ -172,11 +171,13 @@ Ohjelmistojen tietoturva ja käytännöllisyys kulkevat käsi kädessä. Joissai
 ### **Lyhyesti:**
 > Tunnista uhat, mitoita toimenpiteet, toteuta turvaratkaisut
 
+> Mitä opetti: Kurssi opetti itselleni paremmin sen, miten hyökkääjä voi toimia päästessään kiinni herkulliseen haavoittuvuuteen.
+
 Tietoturvan toteuttamisessa täytyy tunnistaa uhkatekijät, järjestelmän kokonaisvaltainen ohjelmistollinen sekä konkreettinen rakenne, sijainti ja avoimuus sekä sen kehittäjä-, ylläpito- ja käyttäjäryhmät. Järjestelmän suojaus, auditointi, analysointi ja asianmukainen tietoturvapolitiikka auttavat, mutta eivät ole vedenpitäviä ratkaisuja. On silti erittäin keskeistä suojata järjestelmät, analysoida lokeja, järjestelmän toimintaa sekä verkkoliikennettä - ja mikä tärkeintä, ei saa olla naiivi ohjelmistojen, järjestelmien ja ihmisten kanssa (kyllä, ihmisetkin voivat olla uhka, myös se parhain työkaveri, ks. social engineering).
 
 Keskeistä on olla mahdollista hyökkääjää yhden askeleen edellä ja suunnitella tehokkaat ennakkotoimenpiteet vihamielistä toimintaa kohtaan. Mikäli hyökkääjä on järjestelmässä, pitäisi hyökkääjä havaita ja pysäyttää mahdollisimman pian sekä vastatoimenpiteet suojata (kyllä: suojata, ettei niitä voi huomaamattomasti kytkeä pois). Jos hyökkääjä pääsee järjestelmään, on oltava suojakeino, jolla vahinko minimoituu ja toiminta keskeytyy (vaikkakin peli ollaan jo tässä osittain hävitty).
 
-Erityisen uhkaava on tilanne, jos hyökkääjä havaitsee järjestelmässä haavoittuvalle alttiin ohjelman tai ohjelmaversion, kuten palvelinohjelmiston ja/tai kykenee tekemään siirtymää kriittisessä sisäverkossa ja peittämään jälkensä tunkeutumisesta ohi turvajärjestelmien.
+Erityisen uhkaava on tilanne, jos hyökkääjä havaitsee järjestelmässä haavoittuvalle alttiin ohjelman tai ohjelmaversion, kuten palvelinohjelmiston ja/tai kykenee tekemään siirtymää kriittisessä sisäverkossa ja peittämään jälkensä tunkeutumisesta ohi turvajärjestelmien. Tiedon vuotaminen on oma lukunsa.
 
 ----------------------
 
@@ -184,6 +185,8 @@ Erityisen uhkaava on tilanne, jos hyökkääjä havaitsee järjestelmässä haav
 
 ### **Lyhyesti:**
 > On omalla vastuulla käyttää opittuja tekniikoita eettisesti
+
+> Mitä opetti: sovellan oppimaani tulevissa IT-ratkaisuissa ja parannan nykyisiä. Toteutan penetraatiotestausta omiin palvelinjärjestelmiini jatkossa sekä seuraan tiiviimmin haavoittuvuuksiin liittyvää uutisointia ja CVE-havaintoja.
 
 Kurssin keskeisenä ohjenuorana ja kirjallisena sitoumuksena on toimia eettisesti hyökkäysten toteuttamisessa rajatussa ja kaikkien asianosaisten hyväksymässä ympäristössä. Tämä ohjenuora on myös syytä pitää jatkossa, jos aikoo kehittyä kyberturvallisuuden ammattilaiseksi - eikä rikolliseksi. Kurssi ei anna ohjeita toteuttaa hyökkäyksiä jäämättä kiinni.
 
@@ -309,7 +312,7 @@ Ratkaisu:
     Ajankäyttö yhteensä, kotitehtävän osa 1: 3-9h
 ```
 
-Sama sykli toistui usean kotitehtävän osan kanssa. Ei aina, mutta paikoitellen. Tämän vuoksi koin erittäin tärkeänä jaksottaa tehtävien tekoa pitkin viikkoa, ja korostaa jaksottamisen tärkeyttä. Pyrin parhaani mukaan deadlineen "vuorokausi ennen tunteja". Ymmärrän, että kaikilla kurssiopiskelijoilla tämä ei valitettavasti ollut mahdollista.
+Sama sykli toistui  joidenkin kotitehtävien osien kanssa. Ei aina, mutta paikoitellen. Tämän vuoksi koin erittäin tärkeänä jaksottaa tehtävien tekoa pitkin viikkoa, ja korostaa jaksottamisen tärkeyttä. Pyrin parhaani mukaan deadlineen "vuorokausi ennen tunteja". Ehkä pyrin itse liian täydellisyyteen aikataulun puitteissa. Ainakin tämä on käsitys, jonka saan muiden kurssipalautteita lukiessa.
 
 ### Kurssin opetuslinjaus: huolellisesti opeteltu tekniikka vs. uuden oppiminen
 
