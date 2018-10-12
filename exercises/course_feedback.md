@@ -101,7 +101,7 @@ On erittäin tärkeää tietää vähintään perusteet siitä, miten hyökkää
 
 **On turha tuudittautua naiivisti ajatukseen "käytän Linuxia, olen turvassa"** (vinkki: suosi silti GNU/Linuxia, älä Linuxia. Lue tämän ero netistä, jos et tiedä). Tämä on väite, josta tuntuu Internetissä tulleen eräs julkilausuttu "totuus" ja johon itsekin jaksoin jossain määrin uskoa ennen kurssia. En enää. 
 
-Virallisten pakettilähteiden ja väärentämättömien allekirjoitusavaimien todentaminen sekä tarkastussummien käyttäminen konkretisoituvat ja korostuvat, ehdottomasti. Lopulta tämänkin tarkastusketjun voi sössiä joko huolimaton/väliinpitämätön ylläpitäjä tai käyttäjä, ja monet muut syyt.
+Virallisten pakettilähteiden ja allekirjoitusavaimien todentaminen sekä tarkastussummien käyttäminen konkretisoituvat ja korostuvat, ehdottomasti. Lopulta tämänkin tarkastusketjun voi sössiä joko huolimaton/väliinpitämätön ylläpitäjä tai käyttäjä, ja monet muut syyt.
 
 ----------------------
 
