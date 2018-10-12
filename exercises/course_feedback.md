@@ -52,6 +52,8 @@
 
     - [Muuta: kurssille jatkoa?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#muuta-kurssille-jatkoa)
 
+- [Kurssikoe](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#kurssikoe)
+
 - [Viihdyitkö kurssilla?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#viihdyitk%C3%B6-kurssilla)
 
 - [Suosittelisitko kurssia? Kenelle? Koulutoverille tai kollegalle?](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#suosittelisitko-kurssia-kenelle-koulutoverille-tai-kollegalle)
@@ -375,6 +377,12 @@ Nämä jatkototeutukset edellyttävät jonkintasoista ohjelmointiosaamista (C/Py
 **Vaihtoehto B)**
 
 Varsinaisesti kurssin ulkopuolisen materiaalin katsominen sai minut havahtumaan, että tästä saisi helposti myös toisenlaisen työkaluihin ja olemassa oleviin hyökkäystekniikoihin liittyvän jatkototeutuksen tehtyä, kysynnästä riippuen. Bluetooth-hyökkäykset, MITM, palvelunesto, sulautetut järjestelmät...
+
+## Kurssikoe
+
+Kurssikoe oli mielenkiintoinen ja otti saman asenteen kuin kurssin opetuskin: käytäntöä ja teoriaa. Kiitos aikataulun kanssa venymisestä (sähköpostien timestampeista on jotain pääteltävissä) ja panostamisesta kokeeseen!
+
+Kokeen tehtävänannot olivat vähintäänkin "mielenkiintoisia", ja mukavaa naksuttelua kurssin oppien mukaisesti. Haastetaso oli sopiva ja olit tehnyt mielestäni hyvän ja moniulotteisen kokeen, joita ei aina näe joka kursseilla. Jätetään kokeen tarkempi sisältö puimatta, että olisi myös jatkossakin käytettävissä, mutta oli hyvä!
 
 ## Viihdyitkö kurssilla?
 
