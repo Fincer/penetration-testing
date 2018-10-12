@@ -423,3 +423,5 @@ Kyllä!
 Kyberturvallisuuteen liittyvän osaamisen harjaannuttaminen myös hyökkäyksen näkökannasta korostuu maailmassa, jossa kaikki ammattialat tuntuvat työntyvän etenevissä määrin IT-pohjaisiin ratkaisuihin, ja joissa implementaatiot eivät ole aina siitä tietoturvallisimmista päästä.
 
 Hyökkäysaspektin tunteminen ja vihamieliseen toimintaan tutustuminen on erittäin tärkeää perustiedon hankkimiseksi vihamielisestä toiminnasta, joka uhkaa monia IT-järjestelmiä. Monet voivat suhtautua epäillen moiseen lähestymisnäkökulmaan ("miten te kehtaatte opettaa hyökkäämään!"), mutta ilman sitä tuntemus tietoturvasta jää mielestäni liian vajavaiseksi. Siksi suosittelen kurssin toteuttamista myös tulevaisuudessa.
+
+[![](https://blackarch.org/images/slider/ba-slider.png)](https://blackarch.org)
