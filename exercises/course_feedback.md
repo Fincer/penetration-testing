@@ -65,7 +65,7 @@
 ## Opitko jotakin? - Omaa taustaa ja kyberturvallisuus
 
 ### **Lyhyesti:**
-> Kurssi avasi tietoturvan ja kyberturvallisuuden maailman eteen uudella tavalla.
+> Mitä opetti: Kurssi avasi tietoturvan ja kyberturvallisuuden maailman eteen uudella tavalla.
 
 Olen käyttänyt ja ylläpitänyt eri Linux-distribuutioita vuodesta 2011 lähtien, noin 7.5 vuotta. Tästä huolimatta avasi kurssi itselleni konkreettisesti uuden maailman, mikä on pidemmällä tähtäimellä kurssin suurin anti suoritettujen harjoitusten lisäksi: Mitä enemmän penetraatiotestauksen maailmaa katsoo myös kurssin ulkopuolelta käsin, sen enemmän ymmärrän, että kyberturvallisuus on maailma, josta monet luulevat tietävänsä, ja itse tiedän, kuinka vähän tiedän. Kurssin pituus ei yksinkertaisesti riitä käsittelemään kaikkea kyberturvallisuuteen liittyvää asiasisältöä, ja loppu oppiminen onkin opiskelijan itsensä tai mahdollisten jatko-opintojen käsissä.
 
@@ -76,7 +76,7 @@ Kyberturvallisuudessa on yksinkertaisesti aihepiiri, josta voisi järjestää ko
 ## Opitko jotakin? - Oma oppiminen
 
 ### **Lyhyesti:**
-> Kurssi avasi keskeisiä tietoturvatekniikoita todella hyvin. Ehdottomasti opin uutta.
+> Mitä opetti: Kurssi avasi keskeisiä tietoturvatekniikoita todella hyvin. Ehdottomasti opin uutta.
 
 Kurssin keskeisin hyöty oli konkreettinen hyökkäysympäristö ja käytännön hyökkäysten toteuttaminen kohdejärjestelmiä vastaan - hyökkäsimme ja tunkeuduimme järjestelmiin käytännössä, mikä avasi tietoturvaa uudella tavalla. Emme tyytyneet PowerPoint-esityksiin.
 
