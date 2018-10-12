@@ -8,8 +8,6 @@
 
 - [Opitko jotakin? - Kurssin keskeinen opetus](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---kurssin-keskeinen-opetus)
 
-- [Opitko jotakin? - Loppukäyttäjän ohjelmat](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---loppuk%C3%A4ytt%C3%A4j%C3%A4n-ohjelmat)
-
 - [Opitko jotakin? - Hyökkäystyökalujen määrä on rajaton](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---hy%C3%B6kk%C3%A4ysty%C3%B6kalujen-m%C3%A4%C3%A4r%C3%A4-on-rajaton)
 
 - [Opitko jotakin? - Hyöty kurssin ulkopuolella](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---hy%C3%B6ty-kurssin-ulkopuolella)
@@ -17,6 +15,8 @@
 - [Opitko jotakin? - Laajasti käytettyjen ammattiratkaisujen heikko suojaus yllättää](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---laajasti-k%C3%A4ytettyjen-ammattiratkaisujen-heikko-suojaus-yll%C3%A4tt%C3%A4%C3%A4)
 
 - [Opitko jotakin? - Tietoturva ja käytännöllisyys](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---tietoturva-ja-k%C3%A4yt%C3%A4nn%C3%B6llisyys)
+
+- [Opitko jotakin? - Loppukäyttäjän ohjelmat](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---loppuk%C3%A4ytt%C3%A4j%C3%A4n-ohjelmat)
 
 - [Opitko jotakin? - Uhkien tunnistus](https://github.com/Fincer/penetration-testing/blob/master/exercises/course_feedback.md#opitko-jotakin---uhkien-tunnistus)
 
@@ -67,6 +67,8 @@
 ### **Lyhyesti:**
 > Mitä opetti: Kurssi avasi tietoturvan ja kyberturvallisuuden maailman eteen uudella tavalla.
 
+> Kurssin aihepiiristä voisi järjestää kokonaisen koulutushaaran?
+
 Olen käyttänyt ja ylläpitänyt eri Linux-distribuutioita vuodesta 2011 lähtien, noin 7.5 vuotta. Tästä huolimatta avasi kurssi itselleni konkreettisesti uuden maailman, mikä on pidemmällä tähtäimellä kurssin suurin anti suoritettujen harjoitusten lisäksi: Mitä enemmän penetraatiotestauksen maailmaa katsoo myös kurssin ulkopuolelta käsin, sen enemmän ymmärrän, että kyberturvallisuus on maailma, josta monet luulevat tietävänsä, ja itse tiedän, kuinka vähän tiedän. Kurssin pituus ei yksinkertaisesti riitä käsittelemään kaikkea kyberturvallisuuteen liittyvää asiasisältöä, ja loppu oppiminen onkin opiskelijan itsensä tai mahdollisten jatko-opintojen käsissä.
 
 Kyberturvallisuudessa on yksinkertaisesti aihepiiri, josta voisi järjestää kokonaisen IT-koulutushaaran oppilaitoksessa. Kyberturvallisuus leikkaa nykymaailmassa montaa eri ammattialaa, koska maailma on monessa kolkassa työntymässä yhä enemmissä määrin IT-ratkaisujen varaan. Tämä korostaa kyberturvallisuuskoulutuksen tärkeyttä entisestään, ei vain Suomen mittakaavassa vaan globaalisti.
@@ -97,20 +99,9 @@ Hyökkäystekniikoiden ja -työkalujen opettelu on keskeistä, koska näin voida
 
 On erittäin tärkeää tietää vähintään perusteet siitä, miten hyökkääjät ohittavat tietojärjestelmiä, koska tämä tieto antaa konkreettista pohjaa tehokkaiden vastatoimien suunnittelulle. Kurssi opetti käytännössä sen, että mikään järjestelmä ei ole täysin suojassa vihamielistä toimintaa kohtaan - varsinkin, jos tietoturvaa ei osata käsitellä tai ymmärretä oikein. Tämä koskee myös tietoturvallisena pidettyä Linuxia, jota vastaan löytyy myös valmiita hyökkäystyökaluja ja jotka heikosti tai väärin suojattuna ovat alttiita vihamieliselle toiminnalle niin ikään Windowsin lisäksi.
 
-**On turha tuudittautua naiivisti ajatukseen "käytän Linuxia, olen turvassa"** (vinkki: suosi silti GNU/Linuxia, älä Linuxia. Lue tämän ero netistä, jos et tiedä). Tämä on väite, josta tuntuu Internetissä tulleen eräs julkilausuttu "totuus" ja johon itsekin jaksoin jossain määrin uskoa ennen kurssia. En enää. Virallisten pakettilähteiden ja väärentämättömien allekirjoitusavaimien todentaminen sekä tarkastussummien käyttäminen konkretisoituvat ja korostuvat, ehdottomasti. Lopulta tämänkin tarkastusketjun voi sössiä joko huolimaton/väliinpitämätön ylläpitäjä tai käyttäjä, ja monet muut syyt.
+**On turha tuudittautua naiivisti ajatukseen "käytän Linuxia, olen turvassa"** (vinkki: suosi silti GNU/Linuxia, älä Linuxia. Lue tämän ero netistä, jos et tiedä). Tämä on väite, josta tuntuu Internetissä tulleen eräs julkilausuttu "totuus" ja johon itsekin jaksoin jossain määrin uskoa ennen kurssia. En enää. 
 
-----------------------
-
-## Opitko jotakin? - Loppukäyttäjän ohjelmat
-
-### **Lyhyesti:**
-> Kurssi antaa keskeisen ymmärryksen avoimen lähdekoodin tärkeydestä sekä suljettuihin ratkaisuihin ja epämäärisiin binääreihin liittyvistä riskeistä. Myös avoimen lähdekoodin ratkaisut tulisi auditoida, monesti lähdekoodista lähtien.
-
-> Mitä opetti: Älä luota binääriin. Luota koodiin, jonka ymmärrät ja auditoit.
-
-Kurssi antaa oppia kaiken kaikkiaan siitä, mikä muodostaa koko tietoturvan perustan, ja mitä voi tapahtua, kun tietoturvaa laiminlyödään: oli kyse sitten palvelin- tai asiakaspuolesta, kuluttajasta tai yrityskäyttäjästä. Tämä ei tunnu monelle IT-alan ammattilaisellekaan olevan selvää.
-
-Takaoven saaminen uhrin tietokoneelle voi olla erittäin helppoa, ja naiivi *suojauksia käyttämätön* tai väliinpitämätön uhri ei voi välttämättä missään vaiheessa tietää, että hänen koneelleen on tunkeuduttu, ellei tietoturvasta huolehdi kukaan.
+Virallisten pakettilähteiden ja väärentämättömien allekirjoitusavaimien todentaminen sekä tarkastussummien käyttäminen konkretisoituvat ja korostuvat, ehdottomasti. Lopulta tämänkin tarkastusketjun voi sössiä joko huolimaton/väliinpitämätön ylläpitäjä tai käyttäjä, ja monet muut syyt.
 
 ----------------------
 
@@ -121,9 +112,11 @@ Takaoven saaminen uhrin tietokoneelle voi olla erittäin helppoa, ja naiivi *suo
 
 > Mitä opetti: Ennen kurssia en ollut ymmärtänyt hyökkäystyökalujen ja tekniikoiden räjähdysmäistä määrää ja sitä, että lisää tulee koko ajan.
 
-Linuxissa käytettävien hyökkäystyökalujen määrässä, hyödyllisten komentojen opettelussa ja hyökkäyskoodien kirjoittamisessa vain taivas on rajana. Ei tule päivää, jolloin ei oppisi jotain uutta. Kurssilla käytettiin Kali Linux -penetraatiodistribuutiota. Itse tutustuin myös BlackArch Linux:iin, jossa väitetään olevan yli 2000 työkalua vihamieliseen tai tietoturvaan liittyviin toimintoihin. Kurssilla kävimme läpi muutamia keskeisiä näistä työkaluista, jotka löytyivät Kali Linux:sta (2018.3).
+Linuxissa käytettävien hyökkäystyökalujen määrässä, hyödyllisten komentojen opettelussa ja hyökkäyskoodien kirjoittamisessa vain taivas on rajana: Ei tule päivää, jolloin ei oppisi jotain uutta.
 
-Erittäin keskeistä hyökkääjän kannalta on tuottaa täysin omia haittatyökaluja (lue: C/Python-koodia) ja hämäysmenetelmiä suojausjärjestelmien ohittamiseksi, mikä kasvattaa uhkien määrää ja heikentää torjuntakeinoja.
+Kurssilla käytettiin Kali Linux -penetraatiodistribuutiota. Itse tutustuin myös BlackArch Linux:iin, jossa väitetään olevan yli 2000 työkalua vihamieliseen tai tietoturvaan liittyviin toimintoihin. Kurssilla kävimme läpi muutamia keskeisiä näistä työkaluista, jotka löytyivät myös Kali Linux:sta (versio 2018.3).
+
+Erittäin keskeistä hyökkääjän kannalta on lisäksi tuottaa täysin omia haittatyökaluja (lue: C/Python/...-koodia) ja hämäysmenetelmiä suojausjärjestelmien ohittamiseksi, mikä kasvattaa uhkien määrää ja heikentää torjuntakeinoja.
 
 ----------------------
 
@@ -138,7 +131,7 @@ Kyberturvallisuuden tärkeys skaalautuu kaikkiin IT-pohjaisiin järjestelmiin ja
 
 Kurssilla ja sen ulkopuolella kurssin aikana opitut hyökkäystekniikat on yleensä rajattu tietynlaiseen käyttöympäristöön. Ympäristöjä on kuitenkin todella paljon aina verkkosivuista tietyn ammattialan laitteisto/ohjelmistokombinaatioon sekä sulautettuihin järjestelmiin saakka.
 
-Omana esimerkkinä voisin kysyä seuraavaa: mitä tapahtuu, jos kykenemme toteuttamaan oikeilla työkaluilla (valmis tai itse koodattu) hyökkäyksen esimerkiksi sairaala- tai kaupan kassajärjestelmiä vastaan, tai pystymme hyökkäämään haavoittuvaa kommunikaatiotekniikkaa käyttävää mittauslaitetta vastaan? Kun ymmärrämme, että näitä järjestelmiä vastaan voi hyökätä, voimme myös paremmin varautua hyökkäyksiin.
+Omana esimerkkinä voisin kysyä seuraavaa: mitä tapahtuu, jos kykenemme toteuttamaan oikeilla työkaluilla (valmis tai itse koodattu) hyökkäyksen esimerkiksi sairaala- tai kaupan kassajärjestelmiä vastaan, tai pystymme hyökkäämään haavoittuvaa kommunikaatiotekniikkaa käyttävää mittauslaitetta vastaan? Kun ymmärrämme, että näitä järjestelmiä vastaan voi hyökätä niin fyysisellä kuin tietoteknisellä tasolla, voimme myös paremmin varautua hyökkäyksiin.
 
 ----------------------
 
@@ -149,7 +142,7 @@ Omana esimerkkinä voisin kysyä seuraavaa: mitä tapahtuu, jos kykenemme toteut
 
 > Mitä opetti: ammattikehittäjät eivät aina suojaa ratkaisujaan monenlaisia hyökkäystekniikoita vastaan. Kehittäjä ei ole jumala, kehittäjä on ihminen inhimillisine piirteineen.
 
-Kyberturvallisuuteen perehtymättömät kehittäjät eivät ilmeisesti ymmärrä ottaa ohjelmistosuunnittelussa tietoturvaa huomioon - tai ottavat sen huomioon puutteellisesti/vajavaisin tiedoin. Esimerkkinä web-ohjelmistot sekä eräs aiempaan ammattialaani liittyvä palvelinohjelmisto, jonka ydinsuunnittelussa huomasin selkeitä tietoturvapuutteita ja laiminlyöntejä "helpomman käytön" kustannuksella.
+Kyberturvallisuuteen perehtymättömät kehittäjät eivät ilmeisesti ymmärrä ottaa ohjelmistosuunnittelussa (backend/frontend) tietoturvaa huomioon - tai ottavat sen huomioon puutteellisesti/vajavaisin tiedoin. Esimerkkinä web-ohjelmistot sekä eräs aiempaan ammattialaani liittyvä palvelinohjelmisto, jonka ydinsuunnittelussa huomasin selkeitä tietoturvapuutteita ja laiminlyöntejä "helpomman käytön" kustannuksella.
 
 Mainitussa palvelinohjelmistossa on huomioitu ammattialaan liittyvä keskeinen toiminnallisuus hyvin, mutta käyttöä varten annetut viralliset, julkiset ohjeet ovat suoraan sanottuna täysin epäammattimaisia ja vaarallisia kyberturvallisuuden näkökulmasta. Lisäksi ohjelmakoodissa on kyberturvallisuuden kannalta vaarallisia implementointeja. Mikä pelottavinta, näistä ei tunnu olevan julkista keskustelua missään verkossa eivätkä kehittäjät eivät tiedota käyttäjiä, vaikka vaarallisuus on täysin ilmiselvää. Käyttäjät eivät taas ymmärrä tietoturvan päälle lähtökohtaisesti paljoakaan. Kehittäjien asenteellisuus ja tekninen ymmärrys tietoturvaa kohtaan ovat ratkaisevassa roolissa.
 
@@ -168,6 +161,17 @@ Infrapuolella vastuu liittyy ennen kaikkea verkkoratkaisujen ja fyysisten tiloje
 
 Ohjelmistojen tietoturva ja käytännöllisyys kulkevat käsi kädessä. Joissain tapauksissa on niin, että tiukemmat tietoturvavaatimukset tulevat implementoiduksi *käytettävyyden kustannuksella*, ja päin vastoin. Tässä piilee riski siihen, että käytettävyydelle annetaan liikaa sijaa tietoturvan kustannuksella, ja vihamielinen taho huomaa sekä käyttää havaitsemaansa haavoittuvuutta (fyysistä tai tietoteknistä) hyväksi - pahimmillaan muiden tietämättä.
 
+Takaoven saaminen uhrin tietokoneelle voi olla erittäin helppoa, ja naiivi *suojauksia käyttämätön* tai väliinpitämätön ja kaikenlaista binääriä kokeileva uhri ei voi välttämättä missään vaiheessa tietää, että hänen koneelleen on tunkeuduttu, ellei tietoturvasta huolehdi kukaan. (Yrityksen Windows-IT-ylläpitäjät pyrkivät usein rajaamaan järjestelmään kuulumattomien binäärien ajoa, mikä on askel oikeaan suuntaan toki...)
+
+----------------------
+
+## Opitko jotakin? - Loppukäyttäjän ohjelmat
+
+### **Lyhyesti:**
+> Kurssi antaa keskeisen ymmärryksen avoimen lähdekoodin tärkeydestä sekä suljettuihin ratkaisuihin ja epämäärisiin binääreihin liittyvistä riskeistä. Myös avoimen lähdekoodin ratkaisut tulisi auditoida, monesti lähdekoodista lähtien.
+
+> Mitä opetti: Älä luota binääriin. Luota koodiin, jonka ymmärrät ja auditoit.
+
 ----------------------
 
 ## Opitko jotakin? - Uhkien tunnistus
@@ -181,7 +185,7 @@ Tietoturvan toteuttamisessa täytyy tunnistaa uhkatekijät, järjestelmän kokon
 
 Keskeistä on olla mahdollista hyökkääjää yhden askeleen edellä ja suunnitella tehokkaat ennakkotoimenpiteet vihamielistä toimintaa kohtaan. Mikäli hyökkääjä on järjestelmässä, pitäisi hyökkääjä havaita ja pysäyttää mahdollisimman pian sekä vastatoimenpiteet suojata (kyllä: suojata, ettei niitä voi huomaamattomasti kytkeä pois). Jos hyökkääjä pääsee järjestelmään, on oltava suojakeino, jolla vahinko minimoituu ja toiminta keskeytyy (vaikkakin peli ollaan jo tässä osittain hävitty!).
 
-Erityisen uhkaava on tilanne, jos hyökkääjä havaitsee järjestelmässä haavoittuvalle alttiin ohjelman tai ohjelmaversion, kuten palvelinohjelmiston, saa käsiinsä arkaluonteista tietoa ja/tai kykenee tekemään siirtymää kriittisessä sisäverkossa piilottaen jälkensä tunkeutumisesta ohi turvajärjestelmien.
+Erityisen uhkaava on tilanne, jos hyökkääjä havaitsee järjestelmässä haavoittuvalle alttiin ohjelman tai ohjelmaversion, kuten palvelinohjelmiston, saa käsiinsä arkaluonteista tietoa ja/tai kykenee tekemään siirtymää kriittisessä sisäverkossa piilottaen jälkensä tunkeutumisesta ohi turvajärjestelmien. Palvelimen sijaan kyseessä voi toki olla myös ihan perinteinen asiakaspäätekonekin vailla palvelinohjelmistoa, joka saadaan porattua auki sopivalla backdoorilla, joka ujutetaan koneelle, ja sama Pandoran lipas levähtää käsiin.
 
 ----------------------
 
@@ -192,7 +196,7 @@ Erityisen uhkaava on tilanne, jos hyökkääjä havaitsee järjestelmässä haav
 
 > Mitä opetti: Löysin kaksi uutta peliä: HackTheBox ja VulnHub. Lisäksi sovellan oppimaani tulevissa IT-ratkaisuissa ja parannan nykyisiä. Toteutan penetraatiotestausta omiin palvelinjärjestelmiini jatkossa sekä seuraan tiiviimmin haavoittuvuuksiin liittyvää uutisointia ja CVE-havaintoja.
 
-On välillä kiva naksutella HackTheBoxin koneiden parissa, VulnHub:n tarjontaan pitää myös tutustua paremmin. Ja ei tarvitse arvata, että vastaavia alustoja löytyy varmasti eksponentiaalisesti enemmänkin. Hyöty ja huvi samassa.
+On välillä kiva naksutella HackTheBoxin koneiden parissa, VulnHub:n tarjontaan pitää myös tutustua paremmin. Ja ei tarvitse arvata, että vastaavia alustoja löytyy varmasti eksponentiaalisesti enemmänkin. Hyöty ja huvi samassa, mikäs siinä.
 
 Koen kyberturvallisuuden oppimisessa tärkeänä, että kurssin aihepiiri läpäisee IT:tä yleisellä tasolla, koska osittaisena alanvaihtajana penetraatiotestaus voi tarjota itselleni uusia mielenkiintoisia ja erikoislaatuisia mahdollisuuksia kahdella eri alalla.
 
