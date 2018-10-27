@@ -2,6 +2,18 @@
 
 Aim of this repository is to present and simulate multiple attack types against web applications and various OSes, including Microsoft Windows.
 
+---------------
+
+## About
+
+**NOTE: Applying and carrying out the practices described below _can be considered as a criminal act_**. Instructions described on this website have been carried out in a precisely limited scope/environment, in accordance with the terms of use, and accepted by all relevant parties beforehand without affecting outside parties. The hostile practices defined here are not directed to any innocent third parties.
+
+Before utilizing these instructions in your environment, make sure that your actions will be legal and authorized, carried out in a limited scope and with transparency so that every affected party is aware of your actions and accepted them in full scale beforehand. In addition, any affected party must know consequences and risks involved in your actions.
+
+**DISCLAIMER:** Author of the instructions neither encourage or take responsibility of any misuse or criminal actions which are based on the instructions below!
+
+---------------
+
 **This repository...**
 
 - ...utilizes [OWASP top 10 list of the most common attack types](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)
@@ -14,47 +26,33 @@ The repository is mainly set up as a requirement by a school cource in Haaga-Hel
 
 - [All exercises (Kaikki harjoitukset)](http://104.248.38.126)
 
-- [Exercise 1 (Harjoitus 1)](http://104.248.38.126/data/documents/h1.md)
+- [Exercise 1 - Direct link](http://104.248.38.126/data/documents/h1.md)
 
-    - [Instructions (Kuvaus)](exercises/h1.md)
+    - [Description](exercises/h1.md) - OWASP Top 10, OWASP WebGoat
 
-        - OWASP Top 10, OWASP WebGoat
+- [Exercise 2 - Direct link](http://104.248.38.126/data/documents/h2.md)
 
-- [Exercise 2 (Harjoitus 2)](http://104.248.38.126/data/documents/h2.md)
+    - [Description](exercises/h2.md) - HackTheBox, Nmap, Metasploit, OWASP WebGoat
 
-    - [Instructions (Kuvaus)](exercises/h2.md)
+- [Exercise 3 - Direct link](http://104.248.38.126/data/documents/h3.md)
 
-        - HackTheBox, Nmap, Metasploit, OWASP WebGoat
+    - [Description](exercises/h3.md) - Haavoittuvuusskannerit, haittaohjelman lähdekoodianalyysi, Authentication Bypass
 
-- [Exercise 3 (Harjoitus 3)](http://104.248.38.126/data/documents/h3.md)
+- [Exercise 4 - Direct link](http://104.248.38.126/data/documents/h4.md)
 
-    - [Instructions (Kuvaus)](exercises/h3.md)
+    - [Description](exercises/h4.md) - CTF-murtautumishaasteet, Stuxnet
 
-        - Haavoittuvuusskannerit, haittaohjelman lähdekoodianalyysi, Authentication Bypass
+- [Exercise 5 - Direct link](http://104.248.38.126/data/documents/h5.md)
 
-- [Exercise 4 (Harjoitus 4)](http://104.248.38.126/data/documents/h4.md)
+    - [Description](exercises/h5.md) - Troijan hevonen (docx, pdf, GZDoom), Conficker-mato, tietoturva-artikkeleita, DHCP-palvelunestohyökkäys
 
-    - [Instructions (Kuvaus)](exercises/h4.md)
+- [Exercise 6 - Direct link](http://104.248.38.126/data/documents/h6.md)
 
-        - CTF-murtautumishaasteet, Stuxnet
+    - [Description](exercises/h6.md) - Android-takaovi, Troijan hevonen (SteamSetup.exe), OSINT-tekniikat
 
-- [Exercise 5 (Harjoitus 5)](http://104.248.38.126/data/documents/h5.md)
+- [Exercise 7 - Direct link](http://104.248.38.126/data/documents/h7.md)
 
-    - [Instructions (Kuvaus)](exercises/h5.md)
-
-    - Troijan hevonen (docx, pdf, GZDoom), Conficker-mato, tietoturva-artikkeleita, DHCP-palvelunestohyökkäys
-
-- [Exercise 6 (Harjoitus 6)](http://104.248.38.126/data/documents/h6.md)
-
-    - [Instructions (Kuvaus)](exercises/h6.md)
-
-        - Android-takaovi, Troijan hevonen (SteamSetup.exe), OSINT-tekniikat
-
-- [Exercise 7 (Harjoitus 7)](http://104.248.38.126/data/documents/h7.md)
-
-    - [Instructions (Kuvaus)](exercises/h7.md)
-
-        - Unicorn-hyökkäys (docx), HTTP-palvelimen murtautumishaaste, Google Project Zero (Linux-ytimen haavoittuvuuden hyväksikäyttö)
+    - [Description](exercises/h7.md) - Unicorn-hyökkäys (docx), HTTP-palvelimen murtautumishaaste, Google Project Zero (Linux-ytimen haavoittuvuuden hyväksikäyttö)
 
 - [Course feedback (Kurssipalaute)](exercises/course_feedback.md)
 
@@ -70,7 +68,7 @@ The repository is mainly set up as a requirement by a school cource in Haaga-Hel
 
 ### [Linux backdoor](random/linux-backdoor.md)
 
-    - Create backdoor for Linux victim machine. Does not require server environment, applies to Linux clients, too. Requires social engineering tactics.
+- Create backdoor for Linux victim machine. Does not require server environment, applies to Linux clients, too. Requires social engineering tactics.
 
 ### [BlackArch Linux - Personal configurations](blackarch/)
 
