@@ -1,38 +1,62 @@
 # Offensive penetration testing
 
-**NOTE:** Some exercises in this repository include answers to [HackTheBox penetration challenges](https://www.hackthebox.eu/). To respect [accepted rules & terms of the HackTheBox website](https://www.hackthebox.eu/tos), spoiler information of hacking servers in their test network environment is not published in this repository. This policy will change *only if* the following conditions are met: 1) the particular computers are retired or offline. In any other circumstances, information of hacking HackTheBox-related computer servers is not published in this repository. Thank you.
+Aim of this repository is to present and simulate multiple attack types against web applications and various OSes, including Microsoft Windows.
 
-The information in this repository will be re-evaluated later.
+**This repository...**
 
--------------------
+- ...utilizes [OWASP top 10 list of the most common attack types](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)
 
-- Aim of this repository is to present and simulate multiple attack types against web applications and various OSes, including Microsoft Windows
+- ...utilizes multiple penetration methods with various tools, including [Kali Linux](https://www.kali.org) and [Metasploit Framework](https://www.metasploit.com)
 
-- This repository 
-
-  - utilizes [OWASP top 10 list of the most common attack types](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)
-
-  - utilizes multiple penetration methods with various tools, including [Kali Linux](https://www.kali.org) and [Metasploit Framework](https://www.metasploit.com)
-
-- The repository is mainly set up as a requirement by a school cource in Haaga-Helia University of Applied Sciences, Helsinki, Finland.
-
-- The repository contains various exercises, currently presented in Finnish but will be translated into English later.
+The repository is mainly set up as a requirement by a school cource in Haaga-Helia University of Applied Sciences, Helsinki, Finland. It contains various exercises, currently presented in Finnish but will be translated into English later.
 
 ## Table of Contents
 
-- [Exercise 1 (Harjoitus 1)](exercises/h1.md)
+- [All exercises (Kaikki harjoitukset)](http://104.248.38.126)
 
-- [Exercise 2 (Harjoitus 2)](exercises/h2.md)
+- [Exercise 1 (Harjoitus 1)](http://104.248.38.126/data/documents/h1.md)
 
-- [Exercise 3 (Harjoitus 3)](exercises/h3.md)
+    - [Instructions (Kuvaus)](exercises/h1.md)
 
-- [Exercise 4 (Harjoitus 4)](exercises/h4.md)
+        - OWASP Top 10, OWASP WebGoat
 
-- [Exercise 5 (Harjoitus 5)](exercises/h5.md)
+- [Exercise 2 (Harjoitus 2)](http://104.248.38.126/data/documents/h2.md)
 
-- [Exercise 6 (Harjoitus 6)](exercises/h6.md)
+    - [Instructions (Kuvaus)](exercises/h2.md)
 
-- [Exercise 7 (Harjoitus 7)](exercises/h7.md)
+        - HackTheBox, Nmap, Metasploit, OWASP WebGoat
+
+- [Exercise 3 (Harjoitus 3)](http://104.248.38.126/data/documents/h3.md)
+
+    - [Instructions (Kuvaus)](exercises/h3.md)
+
+        - Haavoittuvuusskannerit, haittaohjelman lähdekoodianalyysi, Authentication Bypass
+
+- [Exercise 4 (Harjoitus 4)](http://104.248.38.126/data/documents/h4.md)
+
+    - [Instructions (Kuvaus)](exercises/h4.md)
+
+        - CTF-murtautumishaasteet, Stuxnet
+
+- [Exercise 5 (Harjoitus 5)](http://104.248.38.126/data/documents/h5.md)
+
+    - [Instructions (Kuvaus)](exercises/h5.md)
+
+    - Troijan hevonen (docx, pdf, GZDoom), Conficker-mato, tietoturva-artikkeleita, DHCP-palvelunestohyökkäys
+
+- [Exercise 6 (Harjoitus 6)](http://104.248.38.126/data/documents/h6.md)
+
+    - [Instructions (Kuvaus)](exercises/h6.md)
+
+        - Android-takaovi, Troijan hevonen (SteamSetup.exe), OSINT-tekniikat
+
+- [Exercise 7 (Harjoitus 7)](http://104.248.38.126/data/documents/h7.md)
+
+    - [Instructions (Kuvaus)](exercises/h7.md)
+
+        - Unicorn-hyökkäys (docx), HTTP-palvelimen murtautumishaaste, Google Project Zero (Linux-ytimen haavoittuvuuden hyväksikäyttö)
+
+- [Course feedback (Kurssipalaute)](exercises/course_feedback.md)
 
 - [BlackArch Linux - Personal configurations](https://github.com/Fincer/penetration-testing#blackarch-linux---personal-configurations)
 
@@ -44,12 +68,16 @@ The information in this repository will be re-evaluated later.
 
 ## Other contents
 
+### [Linux backdoor](random/linux-backdoor.md)
+
+    - Create backdoor for Linux victim machine. Does not require server environment, applies to Linux clients, too. Requires social engineering tactics.
+
 ### [BlackArch Linux - Personal configurations](blackarch/)
 
   - [OWASP WebGoat](blackarch/webgoat) - Install [OWASP WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project) as a systemd user service
-  
+
   - [OWASP Zed Attack Proxy](blackarch/zaproxy-systemd) - Install [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) as a systemd user service
-  
+
   - [MATE Desktop/myGtkMenu](blackarch/mate-desktop) - Convert BlackArch Openbox penetration tool menu entries into [myGtkMenu](https://sites.google.com/site/jvinla/mygtkmenu) compliant format, use these entries with myGtkMenu
 
 ------------------
