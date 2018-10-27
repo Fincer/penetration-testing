@@ -24,7 +24,7 @@ The repository is mainly set up as a requirement by a school cource in Haaga-Hel
 
 ## Table of Contents
 
-- [All exercises (Kaikki harjoitukset)](http://104.248.38.126)
+- [All exercises - Direct link](http://104.248.38.126)
 
 - [Exercise 1 - Direct link](http://104.248.38.126/data/documents/h1.md)
 
@@ -32,43 +32,43 @@ The repository is mainly set up as a requirement by a school cource in Haaga-Hel
 
 - [Exercise 2 - Direct link](http://104.248.38.126/data/documents/h2.md)
 
-    - [Description](exercises/h2.md) - HackTheBox, Nmap, Metasploit, OWASP WebGoat
+    - [Description](exercises/h2.md) - HackTheBox Environment, Nmap (port scanning), Metasploit Framework, OWASP WebGoat
 
 - [Exercise 3 - Direct link](http://104.248.38.126/data/documents/h3.md)
 
-    - [Description](exercises/h3.md) - Haavoittuvuusskannerit, haittaohjelman lähdekoodianalyysi, Authentication Bypass
+    - [Description](exercises/h3.md) - Vulnerability Scanners (passwords, directories, ports etc.), Source Code Analysis of a Malicious Program, Authentication Bypass
 
 - [Exercise 4 - Direct link](http://104.248.38.126/data/documents/h4.md)
 
-    - [Description](exercises/h4.md) - CTF-murtautumishaasteet, Stuxnet
+    - [Description](exercises/h4.md) - CTF Hacking Challenges, Stuxnet
 
 - [Exercise 5 - Direct link](http://104.248.38.126/data/documents/h5.md)
 
-    - [Description](exercises/h5.md) - Troijan hevonen (docx, pdf, GZDoom), Conficker-mato, tietoturva-artikkeleita, DHCP-palvelunestohyökkäys
+    - [Description](exercises/h5.md) - Trojan Horse (docx, pdf, GZDoom), Conficker Worm, Security Blogs/Articles, DHCP Starvation Attack (Denial of Service)
 
 - [Exercise 6 - Direct link](http://104.248.38.126/data/documents/h6.md)
 
-    - [Description](exercises/h6.md) - Android-takaovi, Troijan hevonen (SteamSetup.exe), OSINT-tekniikat
+    - [Description](exercises/h6.md) - Android Backdoor, Trojan Horse (SteamSetup.exe), OSINT Techniques
 
 - [Exercise 7 - Direct link](http://104.248.38.126/data/documents/h7.md)
 
-    - [Description](exercises/h7.md) - Unicorn-hyökkäys (docx), HTTP-palvelimen murtautumishaaste, Google Project Zero (Linux-ytimen haavoittuvuuden hyväksikäyttö)
+    - [Description](exercises/h7.md) - Unicorn/Powershell Attack (docx), HTTP Server Hacking Challenge, Google Project Zero (Exploitation of Linux kernel vulnerability)
 
-- [Course feedback (Kurssipalaute)](exercises/course_feedback.md)
+- [Course feedback (in Finnish)](exercises/course_feedback.md)
 
-- [BlackArch Linux - Personal configurations](https://github.com/Fincer/penetration-testing#blackarch-linux---personal-configurations)
+- [BlackArch Linux - Personal configurations](#blackarch-linux---personal-configurations)
 
-- [Iptables ruleset for a simple server](https://github.com/Fincer/penetration-testing#iptables-ruleset-for-a-simple-server)
+- [Iptables ruleset for a simple server](#iptables-ruleset-for-a-simple-server)
 
-- [Fake Apache server HTTP response codes](https://github.com/Fincer/penetration-testing#fake-apache-server-http-response-codes)
+- [Fake Apache server HTTP response codes](#fake-apache-server-http-response-codes)
 
-- [Find old package versions at high risk on Arch Linux using updated CVE data](https://github.com/Fincer/penetration-testing#find-old-package-versions-at-high-risk-on-arch-linux-using-updated-cve-data)
+- [Find old package versions at high risk on Arch Linux using updated CVE data](#find-old-package-versions-at-high-risk-on-arch-linux-using-updated-cve-data)
 
 ## Other contents
 
 ### [Linux backdoor](random/linux-backdoor.md)
 
-- Create backdoor for Linux victim machine. Does not require server environment, applies to Linux clients, too. Requires social engineering tactics.
+- Create backdoor for Linux victim machine(s). Does not require server environment, applies to Linux clients, too. Requires social engineering tactics.
 
 ### [BlackArch Linux - Personal configurations](blackarch/)
 
