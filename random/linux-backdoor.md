@@ -119,7 +119,7 @@ Of course, you can adapt this systemd service file as `init` script as well. How
 
 **Testing scope**
 
-The instructions has been tested and work as expected. You gain root access on the victim's Linux machine, no matter which network the victim has connected to. According to my remote tester (who was behind NAT), the opened hostile bash shell process is not visible on graphical system monitor view (this applies to XFCE, at least).
+The instructions has been tested and work as expected. You gain root access on the victim's Linux machine, no matter which network the victim has connected to. You don't need to care about passwords either since the backdoor is executed as root during system boot-up. Actually, you can change the password and do what the hell you want on the victim's Linux machine. According to my remote tester (who was behind NAT), the opened hostile bash shell process is not visible on graphical system monitor view (this applies to XFCE, at least).
 
 Victim can still detect the hostile shell process, other processes and opened network sockets with `netstat/sockstat` commands. However, distinguishing them from friendly processes is another thing...
 
