@@ -4,7 +4,7 @@
 
 We won't create a true virus here. Just a backdoor. However, it opens up many possibilities for further hostile actions against Linux victim machines, including polluting the target Linux machine with multiple nasty viruses.
 
-This is just a short tecnical demonstration without any true hostile attempts. Utilizing the method requires social engineering tactics, as well.
+This is just a short technical demonstration without any true hostile attempts. Utilizing the method requires social engineering tactics, as well.
 
 This method does not require any server software running on the victim's Linux machine. Just a simple client machine is OK.
 
