@@ -24,35 +24,19 @@ The repository is mainly set up as a requirement by a school cource in Haaga-Hel
 
 ## Table of Contents
 
-- [All exercises - Direct link](http://104.248.38.126)
+- [Exercise 1]() - OWASP Top 10, OWASP WebGoat
 
-- [Exercise 1 - Direct link](http://104.248.38.126/data/documents/h1.md)
+- [Exercise 2]() - HackTheBox Environment, Nmap (port scanning), Metasploit Framework, OWASP WebGoat
 
-    - [Description](exercises/h1.md) - OWASP Top 10, OWASP WebGoat
+- [Exercise 3]() - Vulnerability Scanners (passwords, directories, ports etc.), Source Code Analysis of a Malicious Program, Authentication Bypass
 
-- [Exercise 2 - Direct link](http://104.248.38.126/data/documents/h2.md)
+- [Exercise 4]() - CTF Hacking Challenges, Stuxnet
 
-    - [Description](exercises/h2.md) - HackTheBox Environment, Nmap (port scanning), Metasploit Framework, OWASP WebGoat
+- [Exercise 5 - Direct link]() - Trojan Horse (docx, pdf, GZDoom), Conficker Worm, Security Blogs/Articles, DHCP Starvation Attack (Denial of Service)
 
-- [Exercise 3 - Direct link](http://104.248.38.126/data/documents/h3.md)
+- [Exercise 6 - Direct link]() - Android Backdoor, Trojan Horse (SteamSetup.exe), OSINT Techniques
 
-    - [Description](exercises/h3.md) - Vulnerability Scanners (passwords, directories, ports etc.), Source Code Analysis of a Malicious Program, Authentication Bypass
-
-- [Exercise 4 - Direct link](http://104.248.38.126/data/documents/h4.md)
-
-    - [Description](exercises/h4.md) - CTF Hacking Challenges, Stuxnet
-
-- [Exercise 5 - Direct link](http://104.248.38.126/data/documents/h5.md)
-
-    - [Description](exercises/h5.md) - Trojan Horse (docx, pdf, GZDoom), Conficker Worm, Security Blogs/Articles, DHCP Starvation Attack (Denial of Service)
-
-- [Exercise 6 - Direct link](http://104.248.38.126/data/documents/h6.md)
-
-    - [Description](exercises/h6.md) - Android Backdoor, Trojan Horse (SteamSetup.exe), OSINT Techniques
-
-- [Exercise 7 - Direct link](http://104.248.38.126/data/documents/h7.md)
-
-    - [Description](exercises/h7.md) - Unicorn/Powershell Attack (docx), HTTP Server Hacking Challenge, Google Project Zero (Exploitation of Linux kernel vulnerability)
+- [Exercise 7 - Direct link]() - Unicorn/Powershell Attack (docx), HTTP Server Hacking Challenge, Google Project Zero (Exploitation of Linux kernel vulnerability)
 
 - [Course feedback (in Finnish)](exercises/course_feedback.md)
 
@@ -142,3 +126,9 @@ Check packages on your system and find out number of potential CVE issues and ev
 ## Disclaimer
 
 Author of this repository is not responsible for any possible illegal or malicious usage of any files or instructions provided by this repository. The repository is provided as an act of good will and does not intend to encourage users to participate in any illegal activities. All exercises presented in this repository have been carried out in a pre-configured test environment, minimizing any possible attack vectors or unintended harm to outside parties.
+
+------------------
+
+## About this repository (update, 4th March 2019)
+
+Further development of this repository has been temporarily halted. Additional + extended penetration testing, security testing & research is being done on a private repository for now. This policy may or may not change in the future.
