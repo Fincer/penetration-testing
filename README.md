@@ -123,6 +123,19 @@ Check packages on your system and find out number of potential CVE issues and ev
 
 ------------------
 
+## Attack principle - unauthorized access to private intranet
+
+![](images/attack_principle-1.png)
+
+_In this demonstration, I fired up a network environment with 1x Raspberry Pi, 1x strictly firewalled DD-WRT router, 1x physical computer & 1x virtual machine. Router established a LAN network for Raspberry Pi, whereas its WAN interface was connected to the physical computer, demonstrating common internet connection. Attack machine ran virtually inside the physical computer, with virtual network interface. Proper iptables & routing policy was applied both to the router and the physical computer, as seen in the image below._
+
+![](images/attack_principle-2.png)
+_Sorry for this messy image: Just follow the numbers, and you may get the whole idea. This screenshot bundle is directly related to the first image above._
+
+As we can learn, human is the weakest factor here. If your users do not follow strict network policy, this scenario is possible. For attack purposes, I used basic TCP/443 (HTTPS) & TCP/80 (HTTP) ports in payloads, and these ports were used to establish outgoing connection to my rogue Metasploit reverse shell process. Basically, it is very difficult to block this connection type if you allow users to access basic HTTP(S)-based websites from intranet.
+
+------------------
+
 ## Disclaimer
 
 Author of this repository is not responsible for any possible illegal or malicious usage of any files or instructions provided by this repository. The repository is provided as an act of good will and does not intend to encourage users to participate in any illegal activities. All exercises presented in this repository have been carried out in a pre-configured test environment, minimizing any possible attack vectors or unintended harm to outside parties.
