@@ -14,7 +14,7 @@ So what was my ultimate mistake? I did open a QEMU instance from `virt-manager` 
 
 Right now, someone could say: YOUR FAULT! Yes, it is. Or drop the network (physically), and do some RAM/memory analysis, stay calm. Correct answer, maybe. I trusted my hardened 5.5 year old Arch Linux system too much, so I didn't expect this to be possible in the first place. So, I ignored some recovery principles some experts suggest to a situation like this, and rebooted my system.
 
-After the reboot, I opened a new TTY (shell/CLI). Even before logging in, I found out that something fancy was going on. Whitepace characters, appearing from nowhere at regular 1 second intervals, automatically being printed on /dev/stdout (STDOUT):
+After the reboot, I opened a new TTY (shell/CLI). Even before logging in, I found out that something fancy was going on. Whitepace characters, appearing from nowhere at regular 1 second intervals, automatically being printed on `/dev/stdout` (STDOUT):
 
 ![](../images/linux_hypervisor_rootkit.png)
 _Well, this is something new I have never seen in the last 9 years. You definitely don't want this running on your company's production or server systems, do you?_
@@ -47,7 +47,7 @@ I understand several basic facts here:
 
 ### Conclusions
 
-This was something that taught me security in a real hard way. Before that, all Metasploit stuff...well, this is something new. I doubt the main target of this attack is some data centers or other places where QEMU is being used. Just think about it: let your users run their malicious shit on a virtual machines, and using misconfigured hypervisor `libvirtd`, the hypervisor itself can become infected. And the user still happily continues using his/her virtual machine instance, never knowing about the threat. Instead, it is sysadmin's problem now. You definitely want to find this threat but you don't want to be that sysadmin who explains to management or boss how this situation was possible in the first place.
+This was something that taught me security in a real hard way. Before that, all Metasploit stuff...well, this is something new. I doubt the main target of this attack is some data centers or other places where QEMU is being used. Just think about it: let your users run their malicious shit on virtual machines, and using misconfigured hypervisor process `libvirtd`, the hypervisor itself can become infected. And the user still happily continues using his/her virtual machine instance, never knowing about the threat. Instead, it is sysadmin's problem now. You definitely want to find this threat but you don't want to be that sysadmin who explains to management or boss how this situation was possible in the first place.
 
 ### Again: basics of security
 
