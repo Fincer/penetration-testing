@@ -4,7 +4,7 @@ TL;DR; By running `libvirtd` background process as root. Please, don't.
 
 ### My experience: Infected Arch Linux KVM hypervisor 
 
-So, after long 9 years of Linux experience, administration and usage, it has to happen to me. I have secured many of my systems, but didn't consider `libvirtd` process to become a sneaky one. I have [virt-manager (Virtual Machine Manager)](https://en.wikipedia.org/wiki/Virtual_Machine_Manager), which I use**d** to run QEMU KVM instances using `libvirtd` _system_ process by default. However, not anymore. Let me explain.
+So, after long 8.5 years of Linux experience, administration and usage, it had to happen to me. I have secured many of my systems over the years, but didn't consider `libvirtd` process to become a sneaky issue one day. I have [virt-manager (Virtual Machine Manager)](https://en.wikipedia.org/wiki/Virtual_Machine_Manager), which I use**d** to run QEMU KVM instances using `libvirtd` _system_ process by default. However, not anymore. Let me explain.
 
 For those, who don't know: `libvirtd` stands for _libvirt virtualization management system, server side daemon_ ([website](https://libvirt.org/))
 
@@ -17,7 +17,7 @@ Right now, someone could say: YOUR FAULT! Yes, it is. Or drop the network (physi
 After the reboot, I opened a new TTY (shell/CLI). Even before logging in, I found out that something fancy was going on. Whitepace characters, appearing from nowhere at regular 1 second intervals, automatically being printed on `/dev/stdout` (STDOUT):
 
 ![](../images/linux_hypervisor_rootkit.png)
-_Well, this is something new I have never seen in the last 9 years. You definitely don't want this running on your company's production or server systems, do you?_
+_Well, this is something new I have never seen in the last 8.5 years. You definitely don't want this running on your company's production or server systems, do you?_
 
 These `^@^@`. Appearing from...where? That was my question. At this point, my system was already disconnected from network. I did some basic investigation on the system, until I realized that rootkits can hide themselves from process & kernel modules lists, opened network sockets list, and basically, from everywhere on a running system. So to speak: say goodbye to any basic `lsmod`, `ps`, `strace`,`netstat`... commands. Checking `/proc` folder directly may be useless, too. These tools...they won't help you.
 
