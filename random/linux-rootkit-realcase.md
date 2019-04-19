@@ -49,6 +49,16 @@ I understand several basic facts here:
 
 This was something that taught me security in a real hard way. Before that, all Metasploit stuff...well, this is something new. I doubt the main target of this attack is some data centers or other places where QEMU is being used. Just think about it: let your users run their malicious shit on virtual machines, and using misconfigured hypervisor process `libvirtd`, the hypervisor itself can become infected. And the user still happily continues using his/her virtual machine instance, never knowing about the threat. Instead, it is sysadmin's problem now. You definitely want to find this threat but you don't want to be that sysadmin who explains to management or boss how this situation was possible in the first place.
 
+#### About those `^@^@` characters
+
+I did some `strace` investigation, and these characters appeared to be actually whitespaces (tabs), printed to a TTY. Whatever I or the system automatically did, those characters were printed at regular, approximately in 1 second intervals: no matter whether I opened `nano`, login prompt or `systemd` did something before/after login, whitespace characters appeared, seen as `^@` in a TTY. In `nano`, the prompt was actually jumping automatically instead of adding new whitespace characters into an opened document.
+
+Obviously, when your host system suddenly starts to print out whitespace characters by itself after mysterious KVM host application hang ups (Dolphin & VLC in my case), it is a clear and visible symptom of an anomaly on a system, and a clear sign of a malicious process running on. This was a mistake from bad guys side. How do I know it was not just a simple user process doing nasty work behind the scenes? Because whitespace characters started to print out immediately after system start-up, before any login attempts even took place. And I couldn't point out in normal means which process was actually causing this behavior. Looks like rootkit to me.
+
+One thing though: I don't know if it's my feeling or not, but it looked like those characters became "more" visible if any `sudo` or root-related authentication was attempted. Pretty obvious sign of malicious activity, if true. Another noteworthy thing: I found suspicious `gamin` process network socket entries (`netstat`) ([Gamin](https://en.wikipedia.org/wiki/Gamin)).
+
+I maintained the same system 5.5 years.
+
 ### Again: basics of security
 
 #### Examples
