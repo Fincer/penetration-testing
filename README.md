@@ -136,6 +136,12 @@ As we can learn, human is the weakest factor here. If your users do not follow s
 
 ------------------
 
+## Real life case - infected Arch Linux KVM hypervisor host
+
+Please see [Real life case: Hostile Linux rootkit on my system. How did I get infected by a real Linux rootkit first time in my life?](random/linux-rootkit-realcase.md) for details.
+
+------------------
+
 ## Disclaimer
 
 Author of this repository is not responsible for any possible illegal or malicious usage of any files or instructions provided by this repository. The repository is provided as an act of good will and does not intend to encourage users to participate in any illegal activities. All exercises presented in this repository have been carried out in a pre-configured test environment, minimizing any possible attack vectors or unintended harm to outside parties.
